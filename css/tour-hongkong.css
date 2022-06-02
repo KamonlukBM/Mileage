@@ -1,0 +1,1061 @@
+/* ------- เริ่ม css section travel-hk --------*/
+
+#travel-hk {
+    padding: 100px;
+    margin-top: -46px;
+}
+
+#travel-hk .text-travel-hk p {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+#travel-hk .text-travel-hk2 p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* ------- สิ้นสุด css section travel-hk--------*/
+
+
+
+/* ------- เริ่ม css section best-fix-hk--------*/
+
+#best-fix-hk {
+    padding: 40px;
+}
+
+#best-fix-hk .text-best-fix-hk p {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f2692b;
+    text-align: center;
+}
+
+#best-fix-hk .text-best-fix-hk2 p {
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+hr.new1 {
+    border: 0.5px solid #f2692b;
+    margin-top: -15px
+}
+
+/* ------- สิ้นสุด css section best-fix-hk--------*/
+
+
+/* ------- เริ่ม css section button tab --------*/
+
+#sec-but-t .t-but-but-tab .nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #f2692b;
+}
+
+#sec-but-t .t-but-but-tab .nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #ffffff;
+    cursor: default;
+    background-color: #f2692b;
+    border-radius: 150px;
+    border: 2px solid #f2692b;
+    padding: 7px 27px 7px 27px;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 10px;
+}
+
+#sec-but-t .t-but-but-tab .nav-pills>li>a {
+    border-radius: 30px;
+    padding: 5px 26px 6px 26px;
+    border: 2px solid #f2692b;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #f2692b; 
+}
+
+#sec-but-t .t-but-but-tab .nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #ffffff;
+    cursor: default;
+    background-color: #f2692b;
+    border-radius: 150px;
+    border: 2px solid #f2692b;
+    padding: 7px 27px 7px 27px;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 10px;
+}
+
+/* ------- สิ้นสุด css section button tab --------*/
+
+
+
+/* ------- เริ่ม css section box-slide--------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    margin-right: 2rem;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.swiper-slide span {
+    font-size: 12px;
+    color: #70778b;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.card-time-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+}
+
+.card-fie-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+
+}
+
+.card-price {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+
+}
+
+#sec-but-t .button9 {
+    font-size: 12px;
+    background-color: #1940c7;
+    border-radius: 150px;
+    padding: 11px 31px 11px 31px;
+    margin-left: 144px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border: #1940c7;
+}
+
+.btn-circle.btn-lg {
+    width: 30px;
+    height: 27px;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    background-color: #1940c7;
+    color: white;
+}
+
+#sec-but-t .but-box-slide {
+    margin-top: -42px;
+}
+
+/* ------- css slide card --------*/
+/* ------- สิ้นสุด css section box-slide--------*/
+
+
+
+/* ------- เริ่ม css section box-slide-monthly--------*/
+
+#box-slide-monthly .button9 {
+    font-size: 12px;
+    background-color: #1940c7;
+    border-radius: 150px;
+    padding: 11px 31px 11px 31px;
+    margin-left: 144px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border: #1940c7;
+}
+
+#box-slide-monthly .but-box-slide {
+    margin-top: -42px;
+}
+
+.text-box-monthly p {
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+/* ------- สิ้นสุด css section box-slide-monthly--------*/
+
+
+
+
+/* ------- เริ่ม css section box-slide-monthly2--------*/
+
+#box-slide-monthly2 .button9 {
+    font-size: 12px;
+    background-color: #1940c7;
+    border-radius: 150px;
+    padding: 11px 31px 11px 31px;
+    margin-left: 144px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border: #1940c7;
+}
+
+#box-slide-monthly2 .but-box-slide {
+    margin-top: -42px;
+}
+
+.text-box-monthly2 p {
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+/* ------- สิ้นสุด css section box-slide-monthly2--------*/
+
+
+
+/* ------- เริ่ม css section box-slide-svp--------*/
+
+#box-slide-svp .button9 {
+    font-size: 12px;
+    background-color: #1940c7;
+    border-radius: 150px;
+    padding: 11px 31px 11px 31px;
+    margin-left: 144px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border: #1940c7;
+}
+
+#box-slide-svp .but-box-slide {
+    margin-top: -42px;
+}
+
+.text-box-svp p {
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+/* ------- สิ้นสุด css section box-slide-svp--------*/
+
+
+
+
+
+/* ------- เริ่ม css section back-tip --------*/
+
+#back-tour-tip {
+    padding: 100px;
+}
+
+#back-tour-tip .text-back-tip p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+
+#back-tour-tip .text-back-tip2 p {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+#back-tour-tip .text-back-tip3 p {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    margin-top: -18px;
+}
+
+#back-tour-tip .text-back-tip4 p {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    margin-top: -18px;
+}
+
+#back-tour-tip .button10 {
+    padding: 10px 41px;
+    color: white;
+    font-size: 14px;
+    background-color: #ffffff00;
+    border: 1px solid;
+    border-radius: 25px;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+/* ------- สิ้นสุด css section back-tip --------*/
+
+
+
+/* ------- เริ่ม css section sec-guidbook --------*/
+
+#sec-guidbook {
+    padding: 50px;
+}
+
+#sec-guidbook .text-h-guidebook p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+
+#sec-guidbook .text-h-guidebook2 p {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+#sec-guidbook .img-guidbook img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec-guidbook .but-sec-guidbook {
+    margin-left: -3px;
+}
+
+#sec-guidbook .button13 {
+    font-size: 10px;
+    background-color: #f2ad2b;
+    border-radius: 150px;
+    padding: 8px 23px 8px 23px;
+    margin-top: 55px;
+}
+
+#sec-guidbook .button14 {
+    font-size: 10px;
+    background-color: #f2692b;
+    border-radius: 150px;
+    padding: 8px 20px 8px 20px;
+    margin-top: 55px;
+}
+
+#sec-guidbook .button15 {
+    font-size: 10px;
+    border-radius: 150px;
+    padding: 6px 17px 6px 19px;
+    margin-top: 55px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border: 2px solid #f2692b;
+}
+
+#sec-guidbook .text-tt-guidbook p {
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#sec-guidbook .text-date-guidbook p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+}
+
+#sec-guidbook .text-detail-guidbook p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+}
+
+#sec-guidbook .detail-detail-guidbook p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #1940c7;
+}
+
+#sec-guidbook .card {
+    border-radius: 10px;
+}
+
+#sec-guidbook .card-title {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#sec-guidbook .card-time-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+}
+
+#sec-guidbook .card-fie-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+}
+
+#sec-guidbook .card-text {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+
+}
+
+#sec-guidbook .card-price {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: left;
+    color: #70778b;
+    margin-top: 20px;
+}
+
+#sec-guidbook .button16 {
+    font-size: 10px;
+    color: #ffff;
+    border: 1px solid;
+    background-color: #f2692b;
+    border-radius: 150px;
+    padding: 6px 15px 6px 15px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+#sec-guidbook .button17 {
+    font-size: 10px;
+    border-radius: 150px;
+    padding: 4px 12px 4px 12px;
+    margin-top: 12px;
+    margin-left: 4px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border: 2px solid #f2692b;
+}
+
+#sec-guidbook .button18 {
+    font-size: 10px;
+    color: #ffff;
+    border: 1px solid;
+    background-color: #f2692b;
+    border-radius: 150px;
+    padding: 6px 15px 6px 15px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+#sec-guidbook .button19 {
+    font-size: 10px;
+    border-radius: 150px;
+    padding: 4px 12px 4px 12px;
+    margin-top: 12px;
+    margin-left: 4px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border: 2px solid #f2692b;
+}
+
+#sec-guidbook .button20 {
+    font-size: 10px;
+    color: #ffff;
+    border: 1px solid;
+    background-color: #f2692b;
+    border-radius: 150px;
+    padding: 6px 15px 6px 15px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+#sec-guidbook .button21 {
+    font-size: 10px;
+    border-radius: 150px;
+    padding: 4px 12px 4px 12px;
+    margin-top: 12px;
+    margin-left: 4px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border: 2px solid #f2692b;
+}
+
+#sec-guidbook .button22 {
+    font-size: 10px;
+    color: #ffff;
+    border: 1px solid;
+    background-color: #f2692b;
+    border-radius: 150px;
+    padding: 6px 15px 6px 15px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+#sec-guidbook .button23 {
+    font-size: 10px;
+    border-radius: 150px;
+    padding: 4px 12px 4px 12px;
+    margin-top: 12px;
+    margin-left: 4px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border: 2px solid #f2692b;
+}
+
+#sec-guidbook .button24 {
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #f2692b;
+    border-radius: 150px;
+    padding: 5px 30px 5px 30px;
+    border: 2px solid #f2692b;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* ------- สิ้นสุด css section sec-guidbook --------*/
+
+
+
+/* ------- เริ่ม css section sec-time-price --------*/
+
+#sec-time-price {
+    padding: 50px;
+}
+
+#sec-time-price .text-tt-time-price p {
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sec-time-price .text-tt-time-price2 p {
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sec-time-price .button25 {
+    padding: 10px 65px;
+    margin-top: 7px;
+    color: white;
+    font-size: 14px;
+    background-color: #ffffff00;
+    border: 1px solid;
+    border-radius: 28px;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* ------- สิ้นสุด css section sec-time-price --------*/
+
+
+
+/* ------- เริ่ม css section sec-foot-footer --------*/
+
+#sec-foot-footer {
+    padding: 50px;
+}
+
+#sec-foot-footer .text-footer-h p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    font-size: 30px;
+    color: #70778b;
+}
+
+#sec-foot-footer .text-footer-h2 p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail2 p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-phone-alt:before {
+    content: "\f879";
+    font-size: 30px;
+    color: #70778b;
+}
+
+#sec-foot-footer .text-footer-h3 p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail3 p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-clock:before {
+    content: "\f017";
+    font-size: 30px;
+    color: #70778b;
+}
+
+/* ------- สิ้นสุด css section sec-foot-footer --------*/
+
+
+/* ------- เริ่ม css box social --------*/
+
+:root {
+    --chat-zIndex: 1000;
+    --chat-min-height: 220px;
+    --chat-max-height: 440px;
+    --chat-color-white: #fff;
+    --chat-color-black: #222;
+    --chat-color-primary: #06b7f1;
+    --chat-default-shadow: 0 0 10px 5px rgba(112, 111, 102, 0.23);
+}
+
+body {
+    margin: 0;
+}
+
+/* Animations */
+@keyframes slideIn {
+    0% {
+        transform: translateX(150%) scale(1.02);
+    }
+
+    75% {
+        transform: translateX(-20%) scale(0.9);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    75% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.chat-widget {
+    position: fixed;
+    top: -1000px;
+    left: -1000px;
+    box-sizing: border-box;
+}
+
+.chat-widget * {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.chat-widget-toggle {
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+    right: 15px;
+}
+
+.chat-widget-toggle:checked~.chat-open-button {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 400ms ease;
+}
+
+.chat-widget-toggle:checked~.chat-box {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 600ms ease,
+        opacity 200ms ease-out;
+}
+
+.chat-widget-toggle:checked~.chat-close-button {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 400ms ease 600ms;
+}
+
+.chat-box {
+    position: fixed;
+    z-index: var(--chat-zIndex);
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    width: 320px;
+    height: 45%;
+    max-height: var(--chat-max-height);
+    min-height: var(--chat-min-height);
+    border-radius: 15px;
+    background: var(--chat-color-white);
+    box-shadow: var(--chat-default-shadow);
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 350ms ease;
+}
+
+.chat-avatar-box {
+    position: absolute;
+    z-index: 100;
+    top: -45px;
+    left: 50%;
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.chat-avatar-box::before {
+    content: '';
+    position: absolute;
+    z-index: -10;
+    top: 0px;
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 0 0 10px 5px rgba(112, 111, 102, 0.23);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.chat-avatar.-small {
+    width: 30px;
+    height: 30px;
+}
+
+.chat-header {
+    position: relative;
+    z-index: 100;
+    padding-top: 35px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.chat-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.chat-title>* {
+    display: block;
+}
+
+.chat-title-primary {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: -3px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: -35px;
+}
+
+.chat-title-sub {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 3px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-left: -81px;
+}
+
+.chat-title-sub2 {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: -129px;
+    margin-top: 5px;
+    margin-bottom: -19px;
+}
+
+.chat-title-sub3 {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 26px;
+    margin-top: 15px;
+    margin-bottom: -9px;
+}
+
+
+.chat-messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: #bbb;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #4c4c4c;
+    border-radius: 100px;
+}
+
+.chat-messages-content {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.chat-message {
+    display: flex;
+    width: 80%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(173, 173, 171, 0.2);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.chat-message>* {
+    padding: 3px;
+    font-size: 14px;
+    color: #555;
+}
+
+.chat-message.-left {
+    align-self: flex-start;
+    border-top-left-radius: 0;
+}
+
+.chat-message.-left.-animated {
+    animation: bounceIn 600ms ease-in backwards;
+}
+
+.chat-message-avatar {
+    flex: 0 1 auto;
+}
+
+.chat-message-text {
+    flex: 1;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.chat-message.-right {
+    align-self: flex-end;
+    height: 100px;
+    width: 70%;
+    text-align: right;
+    border-top-right-radius: 0;
+}
+
+.chat-message.-right.-animated {
+    animation: slideIn 1s ease 1 backwards;
+}
+
+/* Chat Widget Toggle Button */
+.chat-widget-button {
+    position: fixed;
+    z-index: var(--chat-zIndex);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: var(--chat-default-shadow);
+    cursor: pointer;
+}
+
+.chat-open-button {
+    right: 15px;
+    bottom: 15px;
+    align-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background: #1940c7;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease 150ms;
+}
+
+.chat-open-button svg {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+
+.chat-close-button {
+    right: 350px;
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+    background: var(--chat-color-white);
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.chat-close-button svg {
+    width: 10px;
+    height: 10px;
+    fill: var(--chat-color-black);
+}
+
+/* Chat Form */
+.chat-form-box {
+    position: relative;
+    z-index: 100;
+    padding: 10px 0;
+    flex: 0 0 45px;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat-form {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    border-radius: 100px;
+}
+
+.chat-form-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    color: #767070;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.chat-form-input::placeholder {
+    color: #959595;
+}
+
+.chat-form-input::-webkit-placeholder {
+    color: #959595;
+}
+
+.chat-form-input:focus {
+    outline: none;
+}
+
+.chat-form-button {
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.chat-form-button:active,
+.chat-form-button:focus {
+    outline: none;
+}
+
+.chat-form-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #06b7f1;
+}
+
+.chat-message-box .button30 {
+    padding: 7px 61px 7px 61px;
+    background-color: #4c67c4;
+    border: 1px solid;
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: 24px;
+    border-radius: 25px;
+}
+
+.chat-message-box .button31 {
+    padding: 7px 61px 7px 61px;
+    background-color: #0baa1e;
+    border: 1px solid;
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: 24px;
+    border-radius: 25px;
+}
+
+/* ------- สิ้นสุด css box social --------*/
+
+
+
+/* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
+@media (max-width: 992px) {}

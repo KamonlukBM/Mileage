@@ -1,0 +1,151 @@
+/*.logosizemobile{
+    width: 70px;
+    margin-left: -279px;
+    margin-top: 24px;
+}
+
+.logomobile {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #bf9c60;
+    margin-left: -15px;
+    margin-right: -15px;
+}*/
+
+/* แถบข้างบน ใสๆ */
+nav {
+    border-bottom: solid 0px #212529;
+    min-height: 71px;
+    /*background-color: #212529;*/
+}
+
+
+/* ดันรูปขึ้นไป 
+.carousel {
+    margin-top: -120px; 
+}
+*/
+
+
+/* logo เปลี่ยนสี เมื่อเลื่อนแถบเมนูลงมา */
+.core-nav.nav-core-sticky.on-scroll .menu li a{
+    color: #ffffff;
+    font-family: 'Prompt',sans-serif;
+
+}
+
+.brand .logo-black{
+    display: inherit;
+}
+.brand .logo-white{
+    display: none;
+}
+
+.core-nav.nav-core-sticky.on-scroll .brand .logo-black{
+    display: none;
+}
+.core-nav.nav-core-sticky.on-scroll .brand .logo-white{
+    display: inherit;
+}
+
+
+#header-section {
+    padding: 5px;
+}
+
+#h-header-h {
+    background-color: #F2692B;
+    padding-top: 20px;
+    padding-bottom: 11px;
+}
+
+.text-h1 p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.text-tt-map p {
+    font-size: 11px;
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-top: -33px;
+}
+
+.text-tt-map2 p {
+    font-size: 11px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    margin-top: -10px;
+}
+
+.text-tt-phone p {
+    font-size: 11px;
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-left: 87px;
+    margin-top: -28px;
+}
+
+.text-tt-time p {
+    font-size: 11px;
+    color: #000000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-left: 41px;
+    margin-top: -33px;
+}
+
+.text-tt-time2 p {
+    font-size: 11px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 41px;
+    margin-top: -10px;
+}
+
+
+
+
+
+/* หน้าจอโทรศัพท์ */
+@media (max-width: 992px) {
+    .carousel {
+        margin-top: 0px; 
+    }
+
+    nav {
+        border-bottom: solid 0px #212529;
+        min-height: 71px;
+        /*background-color: #bf9c60;*/
+    }
+
+    .icofont-navigation-menu:before {
+        content: "\efa2";
+        color: #000000;
+    }
+
+    .brand .logo-black{
+        display: inherit;
+    }
+    .brand .logo-white{
+        display: none;
+    }
+    
+    .core-nav.nav-core-sticky.on-scroll .brand .logo-black{
+        display: none;
+    }
+    .core-nav.nav-core-sticky.on-scroll .brand .logo-white{
+        display: inherit;
+    }
+    
+    
+
+    
+
+}

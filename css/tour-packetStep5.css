@@ -1,0 +1,1216 @@
+/* ------- เริ่ม css section travel-tour-add2 --------*/
+
+a {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+
+span {
+    font-family: 'Prompt', sans-serif;
+}
+
+#travel-tour-add2 {
+    padding: 185px 265px 55px;
+    margin-top: -45px;
+}
+
+#travel-tour-add2 .text-travel-tour-article-h p {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+#travel-tour-add2 .text-travel-tour-article-d p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    text-align: left;
+    font-weight: 300;
+}
+
+.text-h-flight p {
+    font-size: 30px;
+    color: #000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-tt-flight p {
+    font-size: 24px;
+    color: #000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ------- สิ้นสุด css section travel-tour-add2--------*/
+
+/* ------- เริ่ม css section sum-pack --------*/
+
+
+table,
+tr {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2rem 1rem !important;
+}
+
+td>a {
+    font-size: 12px;
+}
+
+tr>th p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#add-pack th p {
+    color: #000;
+    font-weight: 600;
+}
+
+tr>th span {
+    color: #595959;
+    font-weight: 500;
+}
+
+.button1 {
+    padding: 5px 32px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    background-color: #595959;
+    border: 2px solid #595959;
+}
+
+.button3 {
+    padding: 5px 32px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    background-color: #1940c7;
+    border: 2px solid #1940c7;
+}
+
+
+/* ------- สิ้นสุด css section sum-pack--------*/
+
+
+/* ------- เริ่ม css section tour-supple --------*/
+
+
+#tour-supple .card {
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#tour-supple .card-title {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.btn-circle.btn-lg {
+    width: 30px;
+    height: 27px;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 13px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    background-color: #1940c7;
+    color: white;
+}
+
+.button9 {
+    font-size: 14px;
+    background-color: #1940c7;
+    border-radius: 150px;
+    padding: 0.75rem 3rem;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    border: #1940c7;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price p {
+    color: #1940c7;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #595959;
+}
+
+.card-time {
+    margin: 1rem 0;
+    color: #767070;
+    font-size: 12px;
+}
+
+#tour-supple .but-box-slide {
+    float: right;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-image: none !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    font-size: 18px !important;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 50%);
+    position: relative;
+}
+
+.card-price p span {
+    color: #555 !important;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.swiper-pagination {
+    position: static !important;
+    text-align: center;
+}
+
+
+.swiper-pagination-bullet-active {
+    background: #4c4c4c !important;
+}
+
+.swiper-pagination-bullet {
+    margin: 0 5px;
+}
+
+.mySwiper .card {
+    margin-right: 2rem;
+}
+
+.bg-gray {
+    background-color: #193fc707;
+    padding: 3rem 0;
+    margin-top: 2rem;
+}
+
+/* ------- สิ้นสุด css section tour-supple--------*/
+
+/* ------- เริ่ม css section warranty --------*/
+
+.card-warranty {
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.card-warranty img {
+    margin-right: 1rem;
+}
+
+.text-warranty h5 {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    padding: 0;
+}
+
+.text-warranty li {
+    font-family: 'Prompt', sans-serif;
+}
+
+.text-warranty {
+    padding: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.warranty-foot {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button7 {
+    font-size: 14px;
+    border-radius: 150px;
+    padding: 4px 19px 4px 21px;
+    background-color: #FF6701;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    border: 2px solid #FF6701;
+}
+
+.button7:hover {
+    background-color: #ff8737;
+    border: 2px solid #ff8737;
+}
+
+/* ------- สิ้นสุด css section warranty--------*/
+
+/* ------- เริ่ม css section rentcar --------*/
+
+
+#rentcar .card {
+    border-radius: 10px;
+}
+
+#rentcar .card-body {
+    text-align: center;
+}
+
+#rentcar .row {
+    justify-content: center;
+}
+
+.Flight-two .text-h-rent p {
+    font-size: 20px;
+    color: #000;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    text-align: center !important;
+}
+
+#myModal3 .tab {
+    text-align: center;
+}
+
+#myModal3 .tab .tablinks.active {
+    color: #1940c7;
+    border-bottom: 2px solid #1940c7;
+
+}
+
+#myModal3 .tab .tablinks {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border: none;
+    margin-right: 2rem;
+}
+
+#myModal3 .tab2 .tablinks2.active {
+    color: #fff;
+    background-color: #1940c7;
+}
+
+#myModal3 .tab2 .tablinks2 {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+
+#myModal3 .tab3 .tablinks3.active {
+    color: #fff;
+    background-color: #1940c7;
+}
+
+#myModal3 .tab3 .tablinks3 {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.multipleChosen,
+.multipleSelect2 {
+    width: 300px;
+}
+
+.select-wrapper {
+    margin: auto;
+    max-width: 600px;
+    width: calc(100% - 40px);
+}
+
+.select-pure__select {
+    align-items: center;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    color: #363b3e;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: left;
+    min-height: 44px;
+    padding: 5px 10px;
+    position: relative;
+    transition: 0.2s;
+    width: 100%;
+}
+
+.select-pure__options {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    color: #363b3e;
+    display: none;
+    left: 0;
+    max-height: 221px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 5;
+}
+
+.select-pure__select--opened .select-pure__options {
+    display: block;
+}
+
+.select-pure__option {
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    height: 44px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.select-pure__option--selected {
+    color: #e4e4e4;
+    cursor: initial;
+    pointer-events: none;
+}
+
+.select-pure__option--hidden {
+    display: none;
+}
+
+.select-pure__selected-label {
+    background: #1940c7;
+    border-radius: 4px;
+    color: #fff;
+    cursor: initial;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 3px 7px;
+}
+
+.select-pure__selected-label:last-of-type {
+    margin-right: 0;
+}
+
+.select-pure__selected-label i {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.select-pure__selected-label i:hover {
+    color: #e4e4e4;
+}
+
+.select-pure__autocomplete {
+    background: #f9f9f8;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+/* ------- สิ้นสุด css section rentcar--------*/
+
+
+/* ------- เริ่ม css modal --------*/
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal3 {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal4 {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+#myModal2 .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+#myModal3 .modal-content p {
+    text-align: left;
+}
+
+#myModal4 .modal-content p {
+    text-align: left;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: -10px;
+    width: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #000;
+    right: 20px;
+    opacity: 1;
+}
+
+.modal-content p {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-popup {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 3rem;
+}
+
+.card-popup span {
+    color: #4c4c4c;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.Flight-two {
+    padding: 2rem;
+
+}
+
+.Flight-two p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.Flight-two span {
+    font-family: 'Prompt', sans-serif;
+}
+
+.Flight-two small {
+    color: #666;
+    font-family: 'Prompt', sans-serif;
+}
+
+.bow-trip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.bow-trip p {
+    color: #1940c7;
+    font-size: 16px;
+}
+
+.box-tic {
+    padding: 1rem;
+    border-right: 1px solid #eee;
+}
+
+.box-tic span {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form-tic label {
+    font-family: 'Prompt', sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+
+.form-tic label span {
+    color: #666;
+    font-weight: 400;
+}
+
+.form-control {
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.form-select {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.tour-h-text p {
+    font-size: 24px;
+    color: #1940c7;
+    text-align: left;
+}
+
+.text-h-serm p {
+    text-align: left;
+}
+
+.button10 {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 19px;
+    background-color: #fff;
+    font-family: 'Prompt', sans-serif;
+    color: #1940c7;
+    border: 2px solid #1940c7;
+}
+
+.conf .button7 {
+    width: 25%;
+    text-align: center;
+}
+
+/* ------- สิ้นสุด css modal --------*/
+
+
+
+/* ------- เริ่ม css section sec-time-price --------*/
+
+#sec-time-price {
+    padding: 50px;
+}
+
+#sec-time-price .text-tt-time-price p {
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sec-time-price .text-tt-time-price2 p {
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sec-time-price .button25 {
+    padding: 10px 65px;
+    margin-top: 7px;
+    color: white;
+    font-size: 14px;
+    background-color: #ffffff00;
+    border: 1px solid;
+    border-radius: 28px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.btn.active,
+.btn:hover {
+    background-color: #666;
+    color: white;
+}
+
+/* ------- สิ้นสุด css section sec-time-price --------*/
+
+
+
+/* ------- เริ่ม css section sec-foot-footer --------*/
+
+#sec-foot-footer {
+    padding: 50px;
+}
+
+#sec-foot-footer .text-footer-h p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: #70778b;
+}
+
+#sec-foot-footer .text-footer-h2 p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail2 p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-phone-alt:before {
+    content: "\f879";
+    font-size: 30px;
+    color: #70778b;
+}
+
+#sec-foot-footer .text-footer-h3 p {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+#sec-foot-footer .text-footer-detail3 p {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    color: #70778b;
+    text-align: center;
+}
+
+.fa-clock:before {
+    content: "\f017";
+    color: #70778b;
+}
+
+/* ------- สิ้นสุด css section sec-foot-footer --------*/
+
+
+/* ------- เริ่ม css box social --------*/
+
+:root {
+    --chat-zIndex: 1000;
+    --chat-min-height: 220px;
+    --chat-max-height: 440px;
+    --chat-color-white: #fff;
+    --chat-color-black: #222;
+    --chat-color-primary: #06b7f1;
+    --chat-default-shadow: 0 0 10px 5px rgba(112, 111, 102, 0.23);
+}
+
+body {
+    margin: 0;
+}
+
+/* Animations */
+@keyframes slideIn {
+    0% {
+        transform: translateX(150%) scale(1.02);
+    }
+
+    75% {
+        transform: translateX(-20%) scale(0.9);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    75% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.chat-widget {
+    position: fixed;
+    top: -1000px;
+    left: -1000px;
+    box-sizing: border-box;
+}
+
+.chat-widget * {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.chat-widget-toggle {
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+    right: 15px;
+}
+
+.chat-widget-toggle:checked~.chat-open-button {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 400ms ease;
+}
+
+.chat-widget-toggle:checked~.chat-box {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 600ms ease,
+        opacity 200ms ease-out;
+}
+
+.chat-widget-toggle:checked~.chat-close-button {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 400ms ease 600ms;
+}
+
+.chat-box {
+    position: fixed;
+    z-index: var(--chat-zIndex);
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    width: 320px;
+    height: 45%;
+    max-height: var(--chat-max-height);
+    min-height: var(--chat-min-height);
+    border-radius: 15px;
+    background: var(--chat-color-white);
+    box-shadow: var(--chat-default-shadow);
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 350ms ease;
+}
+
+.chat-avatar-box {
+    position: absolute;
+    z-index: 100;
+    top: -45px;
+    left: 50%;
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.chat-avatar-box::before {
+    content: '';
+    position: absolute;
+    z-index: -10;
+    top: 0px;
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 0 0 10px 5px rgba(112, 111, 102, 0.23);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.chat-avatar.-small {
+    width: 30px;
+    height: 30px;
+}
+
+.chat-header {
+    position: relative;
+    z-index: 100;
+    padding-top: 35px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.chat-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.chat-title>* {
+    display: block;
+}
+
+.chat-title-primary {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: -3px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: -35px;
+}
+
+.chat-title-sub {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 3px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    margin-left: -81px;
+}
+
+.chat-title-sub2 {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: -129px;
+    margin-top: 5px;
+    margin-bottom: -19px;
+}
+
+.chat-title-sub3 {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 26px;
+    margin-top: 15px;
+    margin-bottom: -9px;
+}
+
+
+.chat-messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: #bbb;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #4c4c4c;
+    border-radius: 100px;
+}
+
+.chat-messages-content {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.chat-message {
+    display: flex;
+    width: 80%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(173, 173, 171, 0.2);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.chat-message>* {
+    padding: 3px;
+    font-size: 14px;
+    color: #555;
+}
+
+.chat-message.-left {
+    align-self: flex-start;
+    border-top-left-radius: 0;
+}
+
+.chat-message.-left.-animated {
+    animation: bounceIn 600ms ease-in backwards;
+}
+
+.chat-message-avatar {
+    flex: 0 1 auto;
+}
+
+.chat-message-text {
+    flex: 1;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.chat-message.-right {
+    align-self: flex-end;
+    height: 100px;
+    width: 70%;
+    text-align: right;
+    border-top-right-radius: 0;
+}
+
+.chat-message.-right.-animated {
+    animation: slideIn 1s ease 1 backwards;
+}
+
+/* Chat Widget Toggle Button */
+.chat-widget-button {
+    position: fixed;
+    z-index: var(--chat-zIndex);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: var(--chat-default-shadow);
+    cursor: pointer;
+}
+
+.chat-open-button {
+    right: 15px;
+    bottom: 15px;
+    align-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background: #1940c7;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease 150ms;
+}
+
+.chat-open-button svg {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+
+.chat-close-button {
+    right: 350px;
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+    background: var(--chat-color-white);
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.chat-close-button svg {
+    width: 10px;
+    height: 10px;
+    fill: var(--chat-color-black);
+}
+
+/* Chat Form */
+.chat-form-box {
+    position: relative;
+    z-index: 100;
+    padding: 10px 0;
+    flex: 0 0 45px;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat-form {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    border-radius: 100px;
+}
+
+.chat-form-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    color: #767070;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.chat-form-input::placeholder {
+    color: #959595;
+}
+
+.chat-form-input::-webkit-placeholder {
+    color: #959595;
+}
+
+.chat-form-input:focus {
+    outline: none;
+}
+
+.chat-form-button {
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.chat-form-button:active,
+.chat-form-button:focus {
+    outline: none;
+}
+
+.chat-form-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #06b7f1;
+}
+
+.chat-message-box .button30 {
+    padding: 7px 61px 7px 61px;
+    background-color: #4c67c4;
+    border: 1px solid;
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: 24px;
+    border-radius: 25px;
+}
+
+.chat-message-box .button31 {
+    padding: 7px 61px 7px 61px;
+    background-color: #0baa1e;
+    border: 1px solid;
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: 24px;
+    border-radius: 25px;
+}
+
+/* ------- สิ้นสุด css box social --------*/
+
+
+
+/* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
+@media (max-width: 992px) {}

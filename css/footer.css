@@ -1,0 +1,41 @@
+/* section ของ footer */
+
+#intro-footer {
+    padding: 20px;
+    background-color: #222222;
+}
+
+#intro-footer .text-footer1 p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+#intro-footer .text-footer2 p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+/* section ของ footer */
+#intro-footer {
+    padding: 13px;
+    background-color: #222222;
+}
+
+
+
+}
+
+@media (max-width: 789px) {
+   
+
+
+@media (min-width: 789px) and (max-width: 789px) {
+    
+}
+}
