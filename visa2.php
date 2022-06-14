@@ -103,8 +103,11 @@
         </section>
 
         <section id="visa-Detail" class="container">
+            <a href="#">
+                <button class="button button10"> INSURANCE</button>
+            </a>
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-7 col-md-8">
                     <div class="text-h-city">
                         <p>Visa</p>
                     </div>
@@ -112,11 +115,11 @@
                     <div class="text-h-city">
                         <p>รายละเอียด</p>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <p class="p-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-5 col-md-4">
                     <div class="card">
                         <div class="card-price">
                             <p>
@@ -210,109 +213,113 @@
 
 
         <section id="relate-pro" class="container">
-            <div class="text-h-city">
-                <p>Related product</p>
+            <div class="head">
+                <div class="text-h-city">
+                    <p>Related product</p>
+                </div>
+                <p>ผลิตภัณฑ์ที่ทางเราอยากแนะนำให้กับคุณ</p>
             </div>
-            <p>ผลิตภัณฑ์ที่ทางเราอยากแนะนำให้กับคุณ</p>
             <br>
-            
-            <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <p class="card-title"> Where does it come from?
-                            </p>
-                            <div class="but-sec-activites">
-                                <a href="#">
-                                    <button class="button button16"> Hong Kong </button>
-                                </a>
-                            </div>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
-                            <p class="card-price">
-                                เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
-                                    790฿
-                                </font>
-                            </p>
-                            <div class="but-box-slide">
-                                <a href="#">
-                                    <button class="button button9"> ทำวีซ่า </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <p class="card-title"> Where does it come from?
-                            </p>
-                            <div class="but-sec-activites">
-                                <a href="#">
-                                    <button class="button button16"> Hong Kong </button>
-                                </a>
-                            </div>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
-                            <p class="card-price">
-                                เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
-                                    790฿
-                                </font>
-                            </p>
-                            <div class="but-box-slide">
-                                <a href="#">
-                                    <button class="button button9"> ทำวีซ่า </button>
-                                </a>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <p class="card-title"> Where does it come from?
+                                </p>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button16"> Hong Kong </button>
+                                    </a>
+                                </div>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                                <p class="card-price">
+                                    เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
+                                        790฿
+                                    </font>
+                                </p>
+                                <div class="but-box-slide">
+                                    <a href="#">
+                                        <button class="button button9"> ทำวีซ่า </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <p class="card-title"> Where does it come from?
-                            </p>
-                            <div class="but-sec-activites">
-                                <a href="#">
-                                    <button class="button button16"> Hong Kong </button>
-                                </a>
-                            </div>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
-                            <p class="card-price">
-                                เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
-                                    790฿
-                                </font>
-                            </p>
-                            <div class="but-box-slide">
-                                <a href="#">
-                                    <button class="button button9"> ทำวีซ่า </button>
-                                </a>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <p class="card-title"> Where does it come from?
+                                </p>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button16"> Hong Kong </button>
+                                    </a>
+                                </div>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                                <p class="card-price">
+                                    เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
+                                        790฿
+                                    </font>
+                                </p>
+                                <div class="but-box-slide">
+                                    <a href="#">
+                                        <button class="button button9"> ทำวีซ่า </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <p class="card-title"> Where does it come from?
-                            </p>
-                            <div class="but-sec-activites">
-                                <a href="#">
-                                    <button class="button button16"> Hong Kong </button>
-                                </a>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <p class="card-title"> Where does it come from?
+                                </p>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button16"> Hong Kong </button>
+                                    </a>
+                                </div>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                                <p class="card-price">
+                                    เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
+                                        790฿
+                                    </font>
+                                </p>
+                                <div class="but-box-slide">
+                                    <a href="#">
+                                        <button class="button button9"> ทำวีซ่า </button>
+                                    </a>
+                                </div>
                             </div>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
-                            <p class="card-price">
-                                เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
-                                    790฿
-                                </font>
-                            </p>
-                            <div class="but-box-slide">
-                                <a href="#">
-                                    <button class="button button9"> ทำวีซ่า </button>
-                                </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <p class="card-title"> Where does it come from?
+                                </p>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button16"> Hong Kong </button>
+                                    </a>
+                                </div>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                                <p class="card-price">
+                                    เริ่มต้นที่ <font style="font-size: 20px;font-weight: 600;color: #1940c7;">
+                                        790฿
+                                    </font>
+                                </p>
+                                <div class="but-box-slide">
+                                    <a href="#">
+                                        <button class="button button9"> ทำวีซ่า </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -538,11 +545,11 @@
     <!-- JS slide card -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
+            slidesPerView: 4,
             spaceBetween: 10,
             centeredSlides: true,
             loop: true,
-            centeredSlides: true,
+            centeredSlides: false,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -554,6 +561,20 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                }
+            }
         });
     </script>
 

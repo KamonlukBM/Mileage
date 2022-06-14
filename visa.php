@@ -155,7 +155,7 @@
                 </select>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -180,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -205,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -230,7 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -280,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -305,7 +305,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -330,7 +330,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -380,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -405,7 +405,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -430,7 +430,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="card">
                         <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">

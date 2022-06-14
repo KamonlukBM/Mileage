@@ -53,6 +53,10 @@
     margin: 0 5px;
 }
 
+.button10 {
+    display: none;
+}
+
 /* ------- สิ้นสุด css section visa-Detail--------*/
 
 
@@ -121,10 +125,11 @@ button.accordion.active:after {
 /* ------- เริ่ม css section relate-pro --------*/
 
 
-#relate-pro{
+#relate-pro {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
 #relate-pro .text-h-city p {
     font-size: 26px;
     color: #000000;
@@ -134,6 +139,7 @@ button.accordion.active:after {
 
 #relate-pro .card {
     border-radius: 10px;
+    margin-right: 2rem;
 }
 
 
@@ -168,6 +174,7 @@ button.accordion.active:after {
     font-family: 'Prompt', sans-serif;
     border: #3B73DC;
 }
+
 /* ------- สิ้นสุด css section relate-pro  --------*/
 
 
@@ -668,3 +675,171 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #travel-tour-add2 {
+        padding: 150px;
+    }
+
+    #visa-Detail .text-h-city {
+        padding: 1rem;
+    }
+
+    #visa-Detail {
+        padding: 2rem 0;
+    }
+
+    .button10 {
+        display: block;
+    }
+
+    #visa-Detail .card {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    #sec-dop {
+        padding: 0;
+    }
+
+    .head {
+        display: none;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #travel-tour-add2 {
+        padding: 150px;
+    }
+
+    #visa-Detail .text-h-city {
+        padding: 1rem;
+    }
+
+    #visa-Detail {
+        padding: 2rem 0;
+    }
+
+    .button10 {
+        display: block;
+    }
+
+    #visa-Detail .card {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    #sec-dop {
+        padding: 0;
+    }
+
+    .head {
+        display: none;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #travel-tour-add2 {
+        padding: 150px;
+    }
+
+    #visa-Detail .text-h-city {
+        padding: 1rem;
+    }
+
+    #visa-Detail {
+        padding: 2rem 0;
+    }
+
+    .button10 {
+        display: block;
+    }
+
+    #visa-Detail .card {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    #sec-dop {
+        padding: 0;
+    }
+
+    .head {
+        display: none;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #travel-tour-add2 {
+        padding: 150px;
+    }
+
+    #visa-Detail .text-h-city {
+        padding: 1rem;
+    }
+
+    #visa-Detail {
+        padding: 2rem 0;
+    }
+
+    .button10 {
+        display: block;
+    }
+
+    #visa-Detail .card {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    #sec-dop {
+        padding: 0;
+    }
+
+    .head {
+        display: none;
+    }
+
+    #visa-Detail .button9 {
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #travel-tour-add2 {
+        padding: 115px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #travel-tour-add2 {
+        padding: 155px;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {
+    #travel-tour-add2 {
+        padding: 155px;
+    }
+}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {
+    #travel-tour-add2 {
+        padding: 155px;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {
+    #travel-tour-add2 {
+        padding: 185px;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}
