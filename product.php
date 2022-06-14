@@ -125,97 +125,89 @@
                 <br>
                 <div class="swiper mySwiper2">
                     <div class="swiper-wrapper">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="swiper-slide">
-                                    <div class="but-sec-hi">
-                                        <a href="#">
-                                            <button class="button button10"> Recommend</button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button19">Best Seller </button>
-                                        </a>
-                                    </div>
-                                    <a href="productDetail.php">
-                                        <img class="card-img-top" src="upload/pd2.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-
-                                        <div class="but-sec-activites">
-                                            <a href="#">
-                                                <button class="button button17"> SINGAPORE </button>
-                                            </a>
-                                        </div>
-                                        <br>
-                                        <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
-                                        </p>
-                                        <p class="card-text">100.00 ฿
-                                        </p>
-                                    </a>
-                                    <br>
-                                </div>
+                        <div class="swiper-slide">
+                            <div class="but-sec-hi">
+                                <a href="#">
+                                    <button class="button button10"> Recommend</button>
+                                </a>
+                                <a href="#">
+                                    <button class="button button19">Best Seller </button>
+                                </a>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="swiper-slide">
-                                    <div class="but-sec-hi">
-                                        <a href="#">
-                                            <button class="button button10"> Recommend</button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button19">Best Seller </button>
-                                        </a>
-                                    </div>
-                                    <a href="productDetail.php">
-                                        <img class="card-img-top" src="upload/pd3.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <a href="productDetail.php">
+                                <img class="card-img-top" src="upload/pd2.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
 
-                                        <div class="but-sec-activites">
-                                            <a href="#">
-                                                <button class="button button17"> SINGAPORE </button>
-                                            </a>
-                                        </div>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button17"> SINGAPORE </button>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
+                                </p>
+                                <p class="card-text">100.00 ฿
+                                </p>
+                            </a>
+                            <br>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="but-sec-hi">
+                                <a href="#">
+                                    <button class="button button10"> Recommend</button>
+                                </a>
+                                <a href="#">
+                                    <button class="button button19">Best Seller </button>
+                                </a>
+                            </div>
+                            <a href="productDetail.php">
+                                <img class="card-img-top" src="upload/pd3.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
 
-                                        <br>
-                                        <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
-                                        </p>
-                                        <a href="#">
-                                            <button class="button button18"> Sold Out </button>
-                                        </a>
-                                        <p class="card-text"> 100.00 ฿
-                                        </p>
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button17"> SINGAPORE </button>
                                     </a>
-                                    <br>
                                 </div>
+
+                                <br>
+                                <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
+                                </p>
+                                <a href="#">
+                                    <button class="button button18"> Sold Out </button>
+                                </a>
+                                <p class="card-text"> 100.00 ฿
+                                </p>
+                            </a>
+                            <br>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="but-sec-hi">
+                                <a href="#">
+                                    <button class="button button10"> Recommend</button>
+                                </a>
+                                <a href="#">
+                                    <button class="button button19">Best Seller </button>
+                                </a>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="swiper-slide">
-                                    <div class="but-sec-hi">
-                                        <a href="#">
-                                            <button class="button button10"> Recommend</button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button19">Best Seller </button>
-                                        </a>
-                                    </div>
-                                    <a href="productDetail.php">
-                                        <img class="card-img-top" src="upload/pd4.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                        <div class="but-sec-activites">
-                                            <a href="#">
-                                                <button class="button button17">SINGAPORE </button>
-                                            </a>
-                                        </div>
-                                        <br>
-                                        <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
-                                        </p>
-                                        <a href="#">
-                                            <button class="button button20"> Promotion </button>
-                                        </a>
-                                        <div class="card-text">
-                                            <span style="color:red;">100.00 ฿
-                                            </span>
-                                            <span style="text-decoration:line-through">100.00 ฿</span>
-                                        </div>
+                            <a href="productDetail.php">
+                                <img class="card-img-top" src="upload/pd4.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                <div class="but-sec-activites">
+                                    <a href="#">
+                                        <button class="button button17">SINGAPORE </button>
                                     </a>
-                                    <br>
                                 </div>
-                            </div>
+                                <br>
+                                <p class="card-title"> CALM นำมันหอมระเหย บำบัดอารมณ์
+                                </p>
+                                <a href="#">
+                                    <button class="button button20"> Promotion </button>
+                                </a>
+                                <div class="card-text">
+                                    <span style="color:red;">100.00 ฿
+                                    </span>
+                                    <span style="text-decoration:line-through">100.00 ฿</span>
+                                </div>
+                            </a>
+                            <br>
                         </div>
                     </div>
                     <!-- end swiper wrapper-->
@@ -233,31 +225,33 @@
         <section id="card-visa" class="container">
             <div class="h-text-art">
                 <p>
-                    All Countries
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected> ราคา </option>
-                        <option value="1"> 0 </option>
-                        <option value="2"> 1 </option>
-                        <option value="3"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                    <select class="form-select me-3" aria-label="Default select example">
-                        <option selected> ประเทศ </option>
-                        <option value="1"> สิงคโปร์ </option>
-                        <option value="2"> ฮ่องกง </option>
-                        <option value="3"> ญี่ปุ่น </option>
-                        <option value="3"> ไทย </option>
-                    </select>
+                    Product
+                    <span class="search">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected> ราคา </option>
+                            <option value="1"> 0 </option>
+                            <option value="2"> 1 </option>
+                            <option value="3"> 2 </option>
+                            <option value="3"> 3 </option>
+                        </select>
+                        <select class="form-select me-3" aria-label="Default select example">
+                            <option selected> ประเทศ </option>
+                            <option value="1"> สิงคโปร์ </option>
+                            <option value="2"> ฮ่องกง </option>
+                            <option value="3"> ญี่ปุ่น </option>
+                            <option value="3"> ไทย </option>
+                        </select>
+                    </span>
                 </p>
             </div>
             <div class="d-detail-text-art">
                 <p>
-                    แผนเดินทาง
+                    ผลิตภัณฑ์ที่ทางเราอยากแนะนำให้กับคุณ
                 </p>
             </div>
 
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -287,7 +281,7 @@
                         <br>
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -316,7 +310,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -341,7 +335,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -366,7 +360,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div>
                         <div class="but-sec-hi">
                             <a href="#">
@@ -398,7 +392,7 @@
                         <br>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -427,7 +421,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div>
                         <div class="but-sec-hi">
                             <a href="#">
@@ -459,7 +453,7 @@
                         <br>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -488,7 +482,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -513,7 +507,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div>
                         <div class="but-sec-hi">
                             <a href="#">
@@ -545,7 +539,7 @@
                         <br>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -574,7 +568,7 @@
                     </a>
                     <br>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-sm-6 col-md-4">
                     <div class="but-sec-hi">
                         <a href="#">
                             <button class="button button10"> Recommend</button>
@@ -602,6 +596,16 @@
             </div>
         </section>
         <br>
+        <div class="num-page">
+            <div class="post-nav text-center">
+                <span aria-current="page" class="page-numbers current"> 1 </span>
+                <a class="page-numbers" href="#"> 2 </a>
+                <a class="page-numbers" href="#"> 3 </a>
+                <a class="page-numbers" href="#"> 4 </a>
+                <a class="page-numbers" href="#"> 5 </a>
+                <a class="page-numbers" href="#"> 6 </a>
+            </div>
+        </div>
         <br>
         <br>
 
@@ -840,16 +844,30 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 50,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                }
+            }
         });
     </script>
 
     <script>
         var swiper = new Swiper(".mySwiper2", {
             slidesPerView: 3,
-            spaceBetween: 10,
-            centeredSlides: true,
+            spaceBetween: 0,
+            centeredSlides: false,
             loop: true,
-            centeredSlides: true,
+            centeredSlides: false,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -861,6 +879,20 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                }
+            }
         });
     </script>
 
