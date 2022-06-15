@@ -106,106 +106,97 @@
 
             <div class="row border-bottom">
                 <div class="col-sm-7">
-                    <p>สินค้า</p>
+                    <p class="product1">สินค้า</p>
                 </div>
-                <div class="col-sm-3">
-                    <p>จำนวน</p>
+                <div class="col-sm-2 text-center">
+                    <p class="price">จำนวน</p>
                 </div>
-                <div class="col-sm-2">
-                    <p>รวม</p>
-                </div>
-            </div>
-            <div class="product">
-                <div class="row border-bottom py-4">
-                    <div class="col-sm-7">
-                        <div class="d-flex">
-                            <img src="upload/cf1.png" class="mx-3">
-                            <p>ประกันภัยการเดินทางต่างประเทศ
-                                แอกซ่า สมาร์ททราเวลเลอร์</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="">
-                            <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
-                            <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
-                            <button class="btn bg-gray4 add" type="button" id="add">+</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <p>฿ 200.00</p>
-                    </div>
+                <div class="col-sm-2 text-center">
+                    <p class="total">รวม</p>
                 </div>
             </div>
             <div class="product">
                 <div class="row border-bottom py-4">
-                    <div class="col-sm-7">
-                        <div class="d-flex">
-                            <img src="upload/cf1.png" class="mx-3">
-                            <p>ประกันภัยการเดินทางต่างประเทศ
-                                แอกซ่า สมาร์ททราเวลเลอร์</p>
-                        </div>
+                    <div class="col-5 col-sm-2">
+                        <img src="upload/cf1.png" class="mx-3 w-100">
                     </div>
-                    <div class="col-sm-3">
-                        <div class="">
-                            <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
-                            <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
-                            <button class="btn bg-gray4 add" type="button" id="add">+</button>
+                    <div class="col-7 col-sm-10">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <p>CALM นำมันหอมระเหย
+                                    บำบัดอารมณ์ </p>
+                            </div>
+                            <div class="col-12 col-sm-5 col-md-3">
+                                <div class="mt-2 mt-lg-0">
+                                    <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
+                                    <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
+                                    <button class="btn bg-gray4 add" type="button" id="add">+</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-2">
+                                <div class="mt-3 mt-lg-0">
+                                    <p>฿ 200.00</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <p>฿ 200.00</p>
                     </div>
                 </div>
             </div>
-
             <div class="product">
                 <div class="row border-bottom py-4">
-                    <div class="col-sm-7">
-                        <div class="d-flex">
-                            <img src="upload/cf1.png" class="mx-3">
-                            <p>ประกันภัยการเดินทางต่างประเทศ
-                                แอกซ่า สมาร์ททราเวลเลอร์<br>
+                    <div class="col-5 col-sm-2">
+                        <img src="upload/cf1.png" class="mx-3 w-100">
+                    </div>
+                    <div class="col-7 col-sm-10">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <p>CALM นำมันหอมระเหย
+                                    บำบัดอารมณ์ </p>
+                            </div>
+                            <div class="col-12 col-sm-5 col-md-3">
+                                <div class="mt-2 mt-lg-0">
+                                    <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
+                                    <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
+                                    <button class="btn bg-gray4 add" type="button" id="add">+</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-2">
+                                <div class="mt-3 mt-lg-0">
+                                    <p>฿ 200.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="row border-bottom py-4">
+                    <div class="col-5 col-sm-2">
+                        <img src="upload/cf1.png" class="mx-3 w-100">
+                    </div>
+                    <div class="col-7 col-sm-10">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <p>CALM นำมันหอมระเหย
+                                    บำบัดอารมณ์ </p>
                                 <a href="#">แก้ไขข้อมูล</a>
-                            </p>
-
+                            </div>
+                            <div class="col-12 col-sm-5 col-md-3">
+                                <div class="mt-2 mt-lg-0">
+                                    <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
+                                    <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
+                                    <button class="btn bg-gray4 add" type="button" id="add">+</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-2">
+                                <div class="mt-3 mt-lg-0">
+                                    <p>฿ 200.00</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="">
-                            <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
-                            <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
-                            <button class="btn bg-gray4 add" type="button" id="add">+</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <p>฿ 200.00</p>
                     </div>
                 </div>
             </div>
-            <div class="product">
-                <div class="row border-bottom py-4">
-                    <div class="col-sm-7">
-                        <div class="d-flex">
-                            <img src="upload/cf1.png" class="mx-3">
-                            <p>ประกันภัยการเดินทางต่างประเทศ
-                                แอกซ่า สมาร์ททราเวลเลอร์<br>
-                                <a href="#">แก้ไขข้อมูล</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="">
-                            <button class="btn bg-gray4 sub" style="float: left;" type="button" id="sub">-</button>
-                            <input class="form-control border-0 w-50 text-center bg-gray4 field" style="float: left;" placeholder="" type="text" id="1" value="1">
-                            <button class="btn bg-gray4 add" type="button" id="add">+</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <p>฿ 200.00</p>
-                    </div>
-                </div>
-            </div>
-
             <br>
             <br>
             <div class="row">

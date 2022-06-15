@@ -167,7 +167,7 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-md-2">
                         <div class="card">
                             <div class="card-body">
                                 <span><i class="fas fa-bed" style="margin-right:5px"></i><i class="fas fa-bed" style="margin-right:5px"></i><i class="fas fa-bed" style="margin-right:5px"></i></span>
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-md-2">
                         <div class="card">
                             <div class="card-body">
                                 <span><i class="fas fa-bed" style="margin-right:5px"></i><i class="fas fa-bed" style="margin-right:5px"></i></span>
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-md-2">
                         <div class="card">
                             <div class="card-body">
                                 <span><i class="fas fa-bed" style="margin-right:5px"></i><i class="fas fa-bed" style="margin-right:5px"></i></span>
@@ -197,7 +197,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-md-2">
                         <div class="card">
                             <div class="card-body">
                                 <span><i class="fas fa-bed" style="margin-right:5px"></i></span>
@@ -349,150 +349,153 @@
                                 </a>
                             </p>
                         </div>
-                        
 
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                    <div class="but-sec-activites">
-                                        <a href="#">
-                                            <button class="button button16"> Hong Kong </button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button17"> sightseeing </button>
-                                        </a>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i><span>4.5</span>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                        <div class="but-sec-activites">
+                                            <a href="#">
+                                                <button class="button button16"> Hong Kong </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="button button17"> sightseeing </button>
+                                            </a>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i><span>4.5</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                            </p>
+                                            <div class="b-but-ton">
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                            </div>
+                                            <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
+                                                มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
+                                                คืน
+                                                สามารถเลือกโรงแรมได้เองทั้งหมด...
+                                            </p>
+                                            <br>
                                         </div>
                                     </div>
-                                    <div class="card-body">
-                                        <p class="card-title"> Caritas Bianchi Lodge Hotel
-                                        </p>
-                                        <div class="b-but-ton" style="margin-bottom: 5px;">
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-img-top" src="upload/ht2.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                        <div class="but-sec-activites">
+                                            <a href="#">
+                                                <button class="button button16"> Hong Kong </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="button button17"> sightseeing </button>
+                                            </a>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i><span>4.5</span>
+                                            </div>
                                         </div>
-                                        <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
-                                            มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
-                                            คืน
-                                            สามารถเลือกโรงแรมได้เองทั้งหมด...
-                                        </p>
-                                        <br>
+                                        <div class="card-body">
+                                            <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                            </p>
+                                            <div class="b-but-ton">
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                            </div>
+                                            <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
+                                                มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
+                                                คืน
+                                                สามารถเลือกโรงแรมได้เองทั้งหมด...
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-img-top" src="upload/ht3.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                        <div class="but-sec-activites">
+                                            <a href="#">
+                                                <button class="button button16"> Hong Kong </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="button button17"> sightseeing </button>
+                                            </a>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i><span>4.5</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                            </p>
+                                            <div class="b-but-ton">
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                            </div>
+                                            <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
+                                                มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
+                                                คืน
+                                                สามารถเลือกโรงแรมได้เองทั้งหมด...
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-img-top" src="upload/ht4.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                        <div class="but-sec-activites">
+                                            <a href="#">
+                                                <button class="button button16"> Hong Kong </button>
+                                            </a>
+                                            <a href="#">
+                                                <button class="button button17"> sightseeing </button>
+                                            </a>
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i><span>4.5</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                            </p>
+                                            <div class="b-but-ton">
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                            </div>
+                                            <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
+                                                มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
+                                                คืน
+                                                สามารถเลือกโรงแรมได้เองทั้งหมด...
+                                            </p>
+                                            <br>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="upload/ht2.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                    <div class="but-sec-activites">
-                                        <a href="#">
-                                            <button class="button button16"> Hong Kong </button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button17"> sightseeing </button>
-                                        </a>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i><span>4.5</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-title"> Caritas Bianchi Lodge Hotel
-                                        </p>
-                                        <div class="b-but-ton" style="margin-bottom: 5px;">
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                                        </div>
-                                        <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
-                                            มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
-                                            คืน
-                                            สามารถเลือกโรงแรมได้เองทั้งหมด...
-                                        </p>
-                                        <br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="upload/ht3.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                    <div class="but-sec-activites">
-                                        <a href="#">
-                                            <button class="button button16"> Hong Kong </button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button17"> sightseeing </button>
-                                        </a>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i><span>4.5</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-title"> Caritas Bianchi Lodge Hotel
-                                        </p>
-                                        <div class="b-but-ton" style="margin-bottom: 5px;">
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                                        </div>
-                                        <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
-                                            มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
-                                            คืน
-                                            สามารถเลือกโรงแรมได้เองทั้งหมด...
-                                        </p>
-                                        <br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="upload/ht4.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                    <div class="but-sec-activites">
-                                        <a href="#">
-                                            <button class="button button16"> Hong Kong </button>
-                                        </a>
-                                        <a href="#">
-                                            <button class="button button17"> sightseeing </button>
-                                        </a>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i><span>4.5</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-title"> Caritas Bianchi Lodge Hotel
-                                        </p>
-                                        <div class="b-but-ton" style="margin-bottom: 5px;">
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                            <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                                        </div>
-                                        <p class="card-text"> กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน 3 วัน 2 คืน
-                                            มาพร้อมกับประสบการณ์อันยอดเยี่ยม ได้พักในเมือง 1 คืนและพักในดิสนีย์ 1
-                                            คืน
-                                            สามารถเลือกโรงแรมได้เองทั้งหมด...
-                                        </p>
-                                        <br>
-                                    </div>
-                                </div>
-                            </div>
+                            <br>
+
                         </div>
-                        <br>
-
                     </div>
                 </div>
+            </div>
         </section>
 
         <br><br>
@@ -731,6 +734,24 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 

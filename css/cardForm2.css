@@ -1,8 +1,11 @@
-
-
 /* ------- เริ่ม css section sec-form2 --------*/
 
-
+span,
+a,
+label,
+.form-control {
+    font-family: 'Prompt', sans-serif;
+}
 
 #sec-form2 {
     margin-top: 4rem;
@@ -21,6 +24,7 @@
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
+
 .text-h-form span {
     font-size: 16px;
     color: #6b6a6a;
@@ -33,13 +37,13 @@
     padding: 10px 20px;
 }
 
-#sec-form2 label{
+#sec-form2 label {
     font-size: 16px;
     color: #000;
     font-family: 'Prompt', sans-serif;
 }
 
-.text-tt-form p{
+.text-tt-form p {
     font-size: 14px;
     color: #000000;
     font-family: 'Prompt', sans-serif;
@@ -576,3 +580,56 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #sec-form2 .card {
+        padding: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #sec-form2 .card {
+        padding: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #sec-form2 .card {
+        padding: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #sec-form2 .card {
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .button10 {
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

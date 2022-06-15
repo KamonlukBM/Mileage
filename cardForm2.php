@@ -37,7 +37,6 @@
     <link rel="stylesheet" href="css/custom.css" />
 
 
-    <link href="css/product.css" rel="stylesheet">
     <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
 
 

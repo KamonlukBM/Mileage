@@ -1,5 +1,10 @@
 /* ------- เริ่ม css section order-detail --------*/
 
+span,
+a {
+    font-family: 'Prompt', sans-serif;
+}
+
 #order-detail {
     padding: 5rem 10rem;
 }
@@ -21,7 +26,7 @@
     font-family: 'Prompt', sans-serif;
 }
 
-.text-recon span{
+.text-recon span {
     color: #fff;
 }
 
@@ -33,44 +38,44 @@
 /* ------- เริ่ม css section order-list --------*/
 
 
-.text-h-list{
+.text-h-list {
     padding: 2rem 0;
 }
 
-.text-h-list p{
+.text-h-list p {
     font-size: 16px;
     color: #909090;
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.text-d-list{
+.text-d-list {
     padding: 2rem 0;
 }
 
-.text-d-list p{
+.text-d-list p {
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.text-d-list span{
+.text-d-list span {
     font-weight: unset;
     font-family: 'Prompt', sans-serif;
 }
 
-.text-d-list li{
+.text-d-list li {
     margin-left: 10px;
     font-family: 'Prompt', sans-serif;
 
 }
 
-.or-price{
+.or-price {
     padding: 2rem 0 0;
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.or-price span{
+.or-price span {
     font-weight: 400;
     font-size: 12px;
     color: #595959;
@@ -86,6 +91,13 @@
     font-family: 'Prompt', sans-serif;
 
 }
+
+.rate2,
+.qty2,
+.amt2 {
+    display: none;
+}
+
 /* ------- สิ้นสุด css section order-list --------*/
 
 
@@ -588,3 +600,150 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #order-detail {
+        padding: 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .text-d-list p {
+        font-weight: 500;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #order-detail {
+        padding: 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .text-d-list p {
+        font-weight: 500;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #order-detail {
+        padding: 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .text-d-list p {
+        font-weight: 500;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #order-detail {
+        padding: 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .text-d-list p {
+        font-weight: 500;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}
