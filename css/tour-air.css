@@ -65,7 +65,6 @@ span {
 .search-but {
     text-align: center;
     position: relative;
-    top: 20%;
 }
 
 /* ------- สิ้นสุด css section tour-air--------*/
@@ -128,6 +127,10 @@ span {
     border-left: 8px solid #F2692B;
     position: absolute;
     top: 30%;
+}
+
+.swiper-slide {
+    background-color: #fff !important;
 }
 
 .card-tic-body {
@@ -351,6 +354,7 @@ span {
 #myModal4 .modal-content p {
     text-align: left;
 }
+
 .modal-content .close {
     position: absolute;
     top: -10px;
@@ -528,7 +532,7 @@ span {
     margin-top: 2rem;
 }
 
-.reserve{
+.reserve {
     text-align: center;
     margin-top: 2rem;
 }
@@ -542,7 +546,7 @@ span {
     margin-top: 5rem;
 }
 
-.text-h-zone p{
+.text-h-zone p {
     font-size: 30px;
     color: #FF8737;
 }
@@ -551,36 +555,37 @@ span {
     padding-bottom: 2rem;
 }
 
-.text-tt-zone p{
+.text-tt-zone p {
     font-size: 28px;
     font-weight: 600;
 }
 
-.text-tt-zone a{
+.text-tt-zone a {
     color: #000;
 }
 
-.img-zone img{
+.img-zone img {
     width: 100%;
 }
 
-.img-zone{
+.img-zone {
     position: relative;
     margin-bottom: 1rem;
 }
 
-.img-zone p{
+.img-zone p {
     position: absolute;
     bottom: 0;
     left: 5px;
     color: #fff;
 }
 
-.zone{
+.zone {
     align-items: center;
     border-top: 2px solid #eee;
     padding: 5rem 0;
 }
+
 /* ------- สิ้นสุด css section ticket-zone--------*/
 
 
@@ -1082,3 +1087,507 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #travel-tour-add2 {
+        padding: 90px 10px;
+    }
+
+    #tour-air-tic .div1 {
+        position: static;
+        margin-top: 1rem;
+        padding: 0;
+        height: inherit;
+    }
+
+    .text-tt-box-time {
+        display: flex;
+        padding: 2rem 1rem;
+        background: #F5F6FA;
+    }
+
+    #tour-air-tic .div1 .button {
+        padding: 10px 20px;
+    }
+
+    .card-tic-body {
+        padding: 2rem 1rem;
+    }
+
+    .button4 {
+        padding: 5px 2px;
+    }
+
+    .card-tic-foot {
+        padding: 1rem;
+    }
+
+    #ticket-hot .swiper-button-next,
+    #ticket-hot .swiper-button-prev {
+        display: none;
+    }
+
+    .text-h-zone {
+        text-align: center;
+    }
+
+    .text-h-zone p {
+        font-size: 26px;
+    }
+
+    .zone {
+        padding: 2rem 0;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #travel-tour-add2 {
+        padding: 90px 10px;
+    }
+
+    #tour-air-tic .div1 {
+        position: static;
+        margin-top: 1rem;
+        padding: 0;
+        height: inherit;
+    }
+
+    .text-tt-box-time {
+        display: flex;
+        padding: 2rem 1rem;
+        background: #F5F6FA;
+    }
+
+    #tour-air-tic .div1 .button {
+        padding: 10px 20px;
+    }
+
+    .card-tic-body {
+        padding: 2rem 1rem;
+    }
+
+    .button4 {
+        padding: 5px 5px;
+    }
+
+    .card-tic-foot {
+        padding: 1rem;
+    }
+
+    #ticket-hot .swiper-button-next,
+    #ticket-hot .swiper-button-prev {
+        display: none;
+    }
+
+    .text-h-zone {
+        text-align: center;
+    }
+
+    .text-h-zone p {
+        font-size: 26px;
+    }
+
+    .zone {
+        padding: 2rem 0;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #travel-tour-add2 {
+        padding: 90px 10px;
+    }
+
+    #tour-air-tic .div1 {
+        position: static;
+        margin-top: 1rem;
+        padding: 0;
+        height: inherit;
+    }
+
+    .text-tt-box-time {
+        display: flex;
+        padding: 2rem 1rem;
+        background: #F5F6FA;
+    }
+
+    #tour-air-tic .div1 .button {
+        padding: 10px 20px;
+    }
+
+    .card-tic-body {
+        padding: 2rem 1rem;
+    }
+
+    .button4 {
+        padding: 5px 5px;
+    }
+
+    .card-tic-foot {
+        padding: 1rem;
+    }
+
+    #ticket-hot .swiper-button-next,
+    #ticket-hot .swiper-button-prev {
+        display: none;
+    }
+
+    .text-h-zone {
+        text-align: center;
+    }
+
+    .text-h-zone p {
+        font-size: 26px;
+    }
+
+    .zone {
+        padding: 2rem 0;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #travel-tour-add2 {
+        padding: 90px 10px;
+    }
+
+    #tour-air-tic .div1 {
+        position: static;
+        margin-top: 1rem;
+        padding: 0;
+        height: inherit;
+    }
+
+    .text-tt-box-time {
+        display: flex;
+        padding: 2rem 1rem;
+        background: #F5F6FA;
+    }
+
+    #tour-air-tic .div1 .button {
+        padding: 10px 20px;
+    }
+
+    .card-tic-body {
+        padding: 2rem 1rem;
+    }
+
+    .button4 {
+        padding: 5px 2px;
+    }
+
+    .card-tic-foot {
+        padding: 1rem;
+    }
+
+    #ticket-hot .swiper-button-next,
+    #ticket-hot .swiper-button-prev {
+        display: none;
+    }
+
+    .text-h-zone {
+        text-align: center;
+    }
+
+    .text-h-zone p {
+        font-size: 26px;
+    }
+
+    .zone {
+        padding: 2rem 0;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .text-h-zone p {
+        font-size: 20px;
+    }
+
+    #tour-air-tic .div1 {
+        position: static;
+        margin-top: 1rem;
+        padding: 0;
+        height: inherit;
+    }
+
+    .text-tt-box-time {
+        display: flex;
+        padding: 2rem 1rem;
+        background: #F5F6FA;
+    }
+
+    #tour-air-tic .div1 .button {
+        padding: 10px 20px;
+    }
+
+    .card-tic-body {
+        padding: 2rem 1rem;
+    }
+
+    .button4 {
+        padding: 5px 2px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+
+    .button4 {
+        padding: 5px 2px;
+    }
+
+    .modal-content {
+        width: 80%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {
+
+    .button4 {
+        padding: 5px 2px;
+    }
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+    .modal-content {
+        width: 80%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {
+
+    .button4 {
+        padding: 5px 2px;
+    }
+    #myModal2 .modal-content {
+        width: 40%;
+    }
+    .modal-content {
+        width: 70%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {
+
+    .button4 {
+        padding: 5px 2px;
+    }
+    .modal-content {
+        width: 75%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {
+
+    .button4 {
+        padding: 5px 2px;
+    }
+}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

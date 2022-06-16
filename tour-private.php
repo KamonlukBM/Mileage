@@ -123,11 +123,11 @@
 
 
         <section id="private-tour" class="container">
-            <div class="border-bottom">
+            <div class="px-3 border-bottom">
                 <div class="text-h-city">
                     <p>Private Trip</p>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-lg-flex justify-content-between">
                     <p>ทริปส่วนตัว ให้ไมล์เลจแอร์ช่วยจัดทริปเฉพาะตัวให้กับคุณ</p>
                     <a href="">
                         <buttton class="button button2">สร้างทริปส่วนตัวด้วยตัวเอง</buttton>
@@ -137,7 +137,7 @@
             </div>
             <div class="slide-tour">
                 <div class="row">
-                    <div class="col-sm-8 px-0">
+                    <div class="col-12 col-sm-8 px-0">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -179,13 +179,11 @@
                         </div>
 
                     </div>
-
-
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
                                 <a href="">
-                                    <div class="promotion">
+                                    <div class="promotion2">
                                         <img src="upload/tp3.png">
                                         <div class="text-pro">
                                             <p>โปรโมชั่นประจำเดือน</p>
@@ -196,7 +194,7 @@
                             </div>
                             <div class="col-sm-12 mt-4">
                                 <a href="">
-                                    <div class="promotion">
+                                    <div class="promotion2">
                                         <img src="upload/tp4.png">
                                         <div class="text-pro">
                                             <p>โปรโมชั่นประจำเดือน</p>
@@ -214,7 +212,7 @@
 
         <section id="article-visa">
             <div class="container">
-                <div class="text-h-city d-flex justify-content-between">
+                <div class="text-h-city d-lg-flex justify-content-between">
                     <p>Recommend Products</p>
                     <select class="form-select" style="width:220px" aria-label="Default select example">
                         <option selected> ประเทศทั้งหมด </option>
@@ -224,121 +222,111 @@
                         <option value="3"> 3 </option>
                     </select>
                 </div>
-                <p>ผลิตภัณฑ์ที่ทางเราอยากแนะนำให้กับคุณ</p>
+                <p class="mt-2 mt-lg-0">ผลิตภัณฑ์ที่ทางเราอยากแนะนำให้กับคุณ</p>
                 <br>
                 <div class="swiper mySwiper2">
                     <div class="swiper-wrapper">
-                        <div class="row ">
 
-                            <div class="col-sm-3 ">
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="but-sec-hi">
-                                            <a href="#">
-                                                <button class="button button10"> Hong Kong</button>
-                                            </a>
-                                        </div>
-                                        <a href="productDetail.php">
-                                            <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                        </a><br>
-                                        <div class="card-body">
-                                            <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
-                                                ประจำเดือนเมษายน)
-                                            </p>
-                                            <div class="text-title">
-                                                <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
-                                                    ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
-                                            </div>
-                                        </div>
-                                        <a href="" class="w3-center">
-                                            <button class="button button3"> จองเลย</button>
-                                        </a> <br>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="but-sec-hi">
+                                    <a href="#">
+                                        <button class="button button10"> Hong Kong</button>
+                                    </a>
+                                </div>
+                                <a href="productDetail.php">
+                                    <img class="card-img-top" src="images/c1.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                </a><br>
+                                <div class="card-body">
+                                    <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
+                                        ประจำเดือนเมษายน)
+                                    </p>
+                                    <div class="text-title">
+                                        <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
+                                            ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
                                     </div>
                                 </div>
+                                <a href="" class="w3-center">
+                                    <button class="button button3"> จองเลย</button>
+                                </a> <br>
                             </div>
-
-                            <div class="col-sm-3 ">
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="but-sec-hi">
-                                            <a href="#">
-                                                <button class="button button10"> Hong Kong</button>
-                                            </a>
-                                        </div>
-                                        <a href="productDetail.php">
-                                            <img class="card-img-top" src="images/c2.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                        </a><br>
-                                        <div class="card-body">
-                                            <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
-                                                ประจำเดือนเมษายน)
-                                            </p>
-                                            <div class="text-title">
-                                                <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
-                                                    ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
-                                            </div>
-                                        </div>
-                                        <a href="" class="w3-center">
-                                            <button class="button button3"> จองเลย</button>
-                                        </a> <br>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3 ">
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="but-sec-hi">
-                                            <a href="#">
-                                                <button class="button button10"> Hong Kong</button>
-                                            </a>
-                                        </div>
-                                        <a href="productDetail.php">
-                                            <img class="card-img-top" src="images/c3.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                        </a><br>
-                                        <div class="card-body">
-                                            <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
-                                                ประจำเดือนเมษายน)
-                                            </p>
-                                            <div class="text-title">
-                                                <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
-                                                    ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
-                                            </div>
-                                        </div>
-                                        <a href="" class="w3-center">
-                                            <button class="button button3"> จองเลย</button>
-                                        </a> <br>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3 ">
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="but-sec-hi">
-                                            <a href="#">
-                                                <button class="button button10"> Hong Kong</button>
-                                            </a>
-                                        </div>
-                                        <a href="productDetail.php">
-                                            <img class="card-img-top" src="images/c4.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                                        </a><br>
-                                        <div class="card-body">
-                                            <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
-                                                ประจำเดือนเมษายน)
-                                            </p>
-                                            <div class="text-title">
-                                                <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
-                                                    ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
-                                            </div>
-                                        </div>
-                                        <a href="" class="w3-center">
-                                            <button class="button button3"> จองเลย</button>
-                                        </a> <br>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="but-sec-hi">
+                                    <a href="#">
+                                        <button class="button button10"> Hong Kong</button>
+                                    </a>
+                                </div>
+                                <a href="productDetail.php">
+                                    <img class="card-img-top" src="images/c2.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                </a><br>
+                                <div class="card-body">
+                                    <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
+                                        ประจำเดือนเมษายน)
+                                    </p>
+                                    <div class="text-title">
+                                        <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
+                                            ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
+                                    </div>
+                                </div>
+                                <a href="" class="w3-center">
+                                    <button class="button button3"> จองเลย</button>
+                                </a> <br>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="but-sec-hi">
+                                    <a href="#">
+                                        <button class="button button10"> Hong Kong</button>
+                                    </a>
+                                </div>
+                                <a href="productDetail.php">
+                                    <img class="card-img-top" src="images/c3.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                </a><br>
+                                <div class="card-body">
+                                    <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
+                                        ประจำเดือนเมษายน)
+                                    </p>
+                                    <div class="text-title">
+                                        <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
+                                            ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
+                                    </div>
+                                </div>
+                                <a href="" class="w3-center">
+                                    <button class="button button3"> จองเลย</button>
+                                </a> <br>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="but-sec-hi">
+                                    <a href="#">
+                                        <button class="button button10"> Hong Kong</button>
+                                    </a>
+                                </div>
+                                <a href="productDetail.php">
+                                    <img class="card-img-top" src="images/c4.jpg" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                                </a><br>
+                                <div class="card-body">
+                                    <p class="card-title"> April Chillout 3 วัน 2 คืน (โปรโมชั่น
+                                        ประจำเดือนเมษายน)
+                                    </p>
+                                    <div class="text-title">
+                                        <p>กิน เที่ยว ช้อป ตะลุยสวนสนุก ครบสูตร ใน3วัน 2คืน มาพร้อมกับประสบการณ์อัน
+                                            ยอดเยี่ยม ได้พักในเมือง 1คืน และพักใน...</p>
+                                    </div>
+                                </div>
+                                <a href="" class="w3-center">
+                                    <button class="button button3"> จองเลย</button>
+                                </a> <br>
+                            </div>
+                        </div>
+
                     </div>
                     <!-- end swiper wrapper-->
                     <div class="swiper-pagination" style="display: none;"></div>
@@ -611,7 +599,20 @@
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
+            },breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 

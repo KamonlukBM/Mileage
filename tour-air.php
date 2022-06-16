@@ -125,8 +125,8 @@
                     </div>
 
                 </div>
-                <div class="row">
-                    <div class="col-lg-3">
+                <div class="row p-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="text-tt-package">
                             <p>
                                 สนามบินต้นทาง
@@ -134,7 +134,7 @@
                         </div>
                         <input class="form-control" type="text" placeholder="สนามบินต้นทาง" aria-label="default input example" style="font-size: 13px;font-family: 'Prompt', sans-serif;">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="text-tt-time-travel">
                             <p>
                                 สนามบินปลายทาง
@@ -142,7 +142,7 @@
                         </div>
                         <input class="form-control" type="text" placeholder="สนามบินปลายทาง" aria-label="default input example" style="font-size: 13px;font-family: 'Prompt', sans-serif;">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="text-tt-time-travel2">
                             <p>
                                 วันเดินทาง
@@ -150,7 +150,7 @@
                         </div>
                         <input class="form-control" type="date" aria-label="default input example" style="font-size: 13px;font-family: 'Prompt', sans-serif;">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="text-tt-time-travel2">
                             <p>
                                 วันเดินทางกลับ
@@ -172,51 +172,82 @@
                 <p>เที่ยวบินภายในประเทศ</p>
                 <span>ตั๋วเครื่องบิน</span>
             </div>
-            <div class="trip-tic">
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at2.png" class="rounded-circle">
-                        <p>เชียงใหม่</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at3.png" class="rounded-circle">
-                        <p>เชียงราย</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at4.png" class="rounded-circle">
-                        <p>แม่ฮ่องสอน</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at5.png" class="rounded-circle">
-                        <p>ลำปาง</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at6.png" class="rounded-circle">
-                        <p>สุโขทัย</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at7.png" class="rounded-circle">
-                        <p>ขอนแก่น</p>
-                    </a>
-                </div>
-                <div class="box-trip">
-                    <a href="#">
-                        <img src="upload/at8.png" class="rounded-circle">
-                        <p>อุบลราชธานี</p>
-                    </a>
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at2.png" class="rounded-circle">
+                                    <p>เชียงใหม่</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at3.png" class="rounded-circle">
+                                    <p>เชียงราย</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at4.png" class="rounded-circle">
+                                    <p>แม่ฮ่องสอน</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at5.png" class="rounded-circle">
+                                    <p>ลำปาง</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at6.png" class="rounded-circle">
+                                    <p>สุโขทัย</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at7.png" class="rounded-circle">
+                                    <p>ขอนแก่น</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trip-tic">
+                            <div class="box-trip">
+                                <a href="#">
+                                    <img src="upload/at8.png" class="rounded-circle">
+                                    <p>อุบลราชธานี</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
+
         </section>
 
         <section id="ticket-hot" class="container">
@@ -331,7 +362,7 @@
                 <p style="font-size: 20px;">Hongkong</p>
                 <a href="">ดูเที่ยวบินฮองกง ></a>
             </div>
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card-tic">
@@ -429,11 +460,10 @@
             </div>
         </section>
         <br>
-        <br>
 
         <section id="ticket-zone" class="container">
             <div class="text-h-zone">
-                <div class="d-flex justify-content-between">
+                <div class="d-md-flex justify-content-between">
                     <p>จองตั๋วเครื่องบินได้ง่ายๆ กับ Mileage Air</p>
                     <button class="button button9">ดูเที่ยวบินทั้งหมด <i class="fas fa-plane"></i></button>
                 </div>
@@ -447,9 +477,9 @@
                         <a href="">ดูเที่ยวบินทวีปเอเชีย ></a>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mt-3 mt-lg-0">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="tour-air2.php">
                                 <div class="img-zone">
                                     <p>ปักกิ่ง</p>
@@ -457,7 +487,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>เซี่ยงไฮ</p>
@@ -465,7 +495,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โตเกียว</p>
@@ -473,7 +503,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โอซาก้า</p>
@@ -481,7 +511,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ฟุกุโอกะ</p>
@@ -489,7 +519,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ฮอกไกโด</p>
@@ -497,7 +527,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โซล</p>
@@ -505,7 +535,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ไทเป</p>
@@ -513,7 +543,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>มาเก๊า</p>
@@ -521,7 +551,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>นาโกย่า</p>
@@ -529,7 +559,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>กวางเจา</p>
@@ -537,7 +567,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>สิงคโปร์</p>
@@ -556,9 +586,9 @@
                         <a href="">ดูเที่ยวบินทวีปยุโรป ></a>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mt-3 mt-lg-0">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ลอนดอน</p>
@@ -566,7 +596,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>มอสโคว</p>
@@ -574,7 +604,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ปารีส</p>
@@ -582,7 +612,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โรม</p>
@@ -590,7 +620,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>มิลาน</p>
@@ -598,7 +628,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>มิวนิค</p>
@@ -606,7 +636,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>อัมเตอร์ดัม</p>
@@ -614,7 +644,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>เวียนนา</p>
@@ -622,7 +652,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>เจนิวา</p>
@@ -630,7 +660,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>แฟรงเฟิร์ต</p>
@@ -650,9 +680,9 @@
                         <a href="">ดูเที่ยวบินทวีปอเมริกา ></a>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mt-3 mt-lg-0">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ลอสแองเจอลิส</p>
@@ -660,7 +690,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ซานฟรานซิสโก</p>
@@ -668,7 +698,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>นิวยอร์ค</p>
@@ -676,7 +706,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>แวนคูเวอร์</p>
@@ -696,9 +726,9 @@
                         <a href="">ดูเที่ยวบินทวีปออสเตรเลีย ></a>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mt-3 mt-lg-0">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>เมลเบิร์น</p>
@@ -706,7 +736,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ซิดนีย์</p>
@@ -714,7 +744,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โอคแลนด์</p>
@@ -733,9 +763,9 @@
                         <a href="">ดูเที่ยวบินทวีปทวีปแอฟริกา ></a>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 mt-3 mt-lg-0">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ไคโร</p>
@@ -743,7 +773,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>โจฮันเนสเบิร์ก</p>
@@ -751,7 +781,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-6 col-md-3">
                             <a href="">
                                 <div class="img-zone">
                                     <p>ไนโรบี</p>
@@ -1050,13 +1080,15 @@
                             </div>
                         </div>
                         <div class="conf-btn">
-                            <button class="button9">ยืนยันการจอง</button>
+                            <button class="button9">จองผ่านเว็บ</button>
                         </div>
-                        <span>หมายเหตุ</span><br>
-                        <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        <div class="mh">
+                            <span>หมายเหตุ</span><br>
+                            <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        </div>
                         <div class="reserve">
-                            <button class="buttonLine">ยืนยันการจอง</button>
-                            <button class="button5">ยืนยันการจอง</button>
+                            <button class="buttonLine">จองผ่าน LINE</button>
+                            <button class="button5">โทรจอง</button>
                         </div>
                     </div>
                 </div>
@@ -1136,13 +1168,15 @@
                             </div>
                         </div>
                         <div class="conf-btn">
-                            <button class="button9">ยืนยันการจอง</button>
+                            <button class="button9">จองผ่านเว็บ</button>
                         </div>
-                        <span>หมายเหตุ</span><br>
-                        <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        <div class="mh">
+                            <span>หมายเหตุ</span><br>
+                            <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        </div>
                         <div class="reserve">
-                            <button class="buttonLine">ยืนยันการจอง</button>
-                            <button class="button5">ยืนยันการจอง</button>
+                            <button class="buttonLine">จองผ่าน LINE</button>
+                            <button class="button5">โทรจอง</button>
                         </div>
                     </div>
                 </div>
@@ -1305,7 +1339,7 @@
             spaceBetween: 10,
             centeredSlides: true,
             loop: true,
-            centeredSlides: true,
+            centeredSlides: false,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -1317,6 +1351,24 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 
@@ -1326,7 +1378,7 @@
             spaceBetween: 10,
             centeredSlides: true,
             loop: true,
-            centeredSlides: true,
+            centeredSlides: false,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -1338,6 +1390,63 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                }
+            }
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
+            slidesPerView: 8,
+            spaceBetween: 10,
+            centeredSlides: true,
+            loop: true,
+            centeredSlides: false,
+            slideToClickedSlide: true,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: false,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                },
+                '1024': {
+                    slidesPerView: 7,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 

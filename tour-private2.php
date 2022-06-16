@@ -130,34 +130,34 @@
                         </div>
                         <div class="col-sm-12 mt-2">
                             <div class="row">
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-6 col-md-3 mt-3">
                                     <label class="form-label fw-normal">ระยะเวลาเดินทาง</label>
                                     <input type="text" class="form-control" placeholder="ระยะเวลาเดินทาง">
                                 </div>
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-6 col-md-3 mt-3">
                                     <label class="form-label fw-normal">วันที่เดินทางไป</label>
                                     <input type="date" class="form-control">
                                 </div>
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-6 col-md-3 mt-3">
                                     <label class="form-label fw-normal">วันที่เดินทางกลับ</label>
                                     <input type="date" class="form-control">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3 mt-3">
+                        <div class="col-sm-6 col-md-3 mt-3">
                             <label class="form-label fw-normal">จำนวนผู้เดินทาง</label>
                             <input type="text" class="form-control" placeholder="จำนวนผู้เดินทาง">
                         </div>
                         <div class="col-sm-12 mt-3">
-                            <div class="col-sm-2 mt-3">
+                            <div class="col-sm-4 col-md-2 mt-3">
                                 <input type="checkbox" id="vehicle1">
                                 <label class="form-label fw-normal">ฮ่องกง</label>
                             </div>
-                            <div class="col-sm-2 mt-3">
+                            <div class="col-sm-4 col-md-2 mt-3">
                                 <input type="checkbox" id="vehicle1">
                                 <label class="form-label fw-normal">สิงคโปร์</label>
                             </div>
-                            <div class="col-sm-5 mt-3">
+                            <div class="col-sm-4 col-md-5 mt-3">
                                 <input type="checkbox" id="vehicle1">
                                 <label class="form-label fw-normal">ประเทศอื่นๆ</label>
                                 <input type="text" class="form-control" placeholder="ระบุประเทศที่ต้องการ">
@@ -169,7 +169,6 @@
                     </div>
                 </div>
             </div>
-            <br><br>
             <div class="card p-4">
                 <div class="form-tour">
                     <div class="text-h-form">
@@ -177,31 +176,31 @@
                         <span>ตรงตามหนังสือเดินทาง</span>
                     </div>
                     <div class="row">
-                        <div class="col-sm-2 mt-3">
+                        <div class="col-sm-4 col-md-2 mt-3">
                             <label class="form-label fw-normal">คำนำหน้า</label>
                             <select class="form-select">
                                 <option>Mr</option>
                             </select>
                         </div>
-                        <div class="col-sm-3 mt-3">
+                        <div class="col-sm-4 col-md-3 mt-3">
                             <label class="form-label fw-normal">ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                             <input type="text" class="form-control" placeholder="ชื่อ (ภาษาอังกฤษ)">
                         </div>
-                        <div class="col-sm-3 mt-3">
+                        <div class="col-sm-4 col-md-3 mt-3">
                             <label class="form-label fw-normal">นามสกุล <span>(ภาษาอังกฤษ)</span></label>
                             <input type="text" class="form-control" placeholder="นามสกุล (ภาษาอังกฤษ)">
                         </div>
                         <div class="col-sm-12 mt-3">
                             <div class="row">
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-4 col-md-3 mt-3">
                                     <label class="form-label fw-normal">เบอร์โทรศัพท์</label>
                                     <input type="text" class="form-control" placeholder="เบอร์โทรศัพท์">
                                 </div>
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-4 col-md-3 mt-3">
                                     <label class="form-label fw-normal">Line ID</label>
                                     <input type="text" class="form-control" placeholder="Line ID">
                                 </div>
-                                <div class="col-sm-3 mt-3">
+                                <div class="col-sm-4 col-md-3 mt-3">
                                     <label class="form-label fw-normal">อีเมล</label>
                                     <input type="text" class="form-control" placeholder="อีเมล">
                                 </div>
@@ -213,7 +212,7 @@
 
             <br><br>
 
-            <div class="w3-right">
+            <div class="text-md-end text-center px-3">
                 <a href="">
                     <button class="button button5">ย้อนกลับ</button>
                 </a>

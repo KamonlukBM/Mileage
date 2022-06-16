@@ -37,11 +37,14 @@ span {
 .text-h-flight .tab button {
     background-color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-    padding: 1.5rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
     font-family: 'Prompt', sans-serif;
     border: unset;
     margin: 0 0.5rem;
+    font-size: 14px;
+    width: 125px;
+    text-align: center;
 }
 
 .text-h-flight .tab button.active {
@@ -101,7 +104,7 @@ span {
     font-size: 16px !important;
 }
 
-.card-price{
+.card-price {
     text-align: right;
 }
 
@@ -171,8 +174,12 @@ span {
     font-family: 'Prompt', sans-serif;
 }
 
-.data-tic2{
+.data-tic2 {
     text-align: center;
+}
+
+.tab {
+    display: flex;
 }
 
 .modal {
@@ -440,7 +447,7 @@ span {
     margin-top: 2rem;
 }
 
-.reserve{
+.reserve {
     text-align: center;
     margin-top: 2rem;
 }
@@ -453,14 +460,14 @@ span {
     padding: 0 5rem;
 }
 
-.line::before{
+.line::before {
     content: " ";
     width: 133px;
     height: 10px;
     border-top: 1px solid #90949C;
     position: absolute;
     top: 40px;
-    left: 120px;
+    left: 117px;
 }
 
 /* ------- สิ้นสุด css section flight-tabs--------*/
@@ -962,3 +969,421 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    .card-tic-body {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .text-h-tic {
+        margin-top: 2rem;
+    }
+
+    .icon-tic {
+        justify-content: space-between;
+    }
+
+    .line::before {
+        width: 90px;
+        top: 60px;
+        left: 86px;
+    }
+
+    .card-price {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .button4 {
+        margin-top: 0;
+    }
+
+    .data-tic2 {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    .card-tic-body {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .text-h-tic {
+        margin-top: 2rem;
+    }
+
+    .icon-tic {
+        justify-content: space-between;
+    }
+
+    .line::before {
+        width: 145px;
+        top: 60px;
+        left: 86px;
+    }
+
+    .card-price {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .button4 {
+        margin-top: 0;
+    }
+
+    .data-tic2 {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    .card-tic-body {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .text-h-tic {
+        margin-top: 2rem;
+    }
+
+    .icon-tic {
+        justify-content: space-between;
+    }
+
+    .line::before {
+        width: 185px;
+        top: 60px;
+        left: 86px;
+    }
+
+    .card-price {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .button4 {
+        margin-top: 0;
+    }
+
+    .data-tic2 {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .card-tic-body {
+        padding: 1rem 2rem;
+    }
+
+    .text-h-tic {
+        margin-top: 2rem;
+    }
+
+    .icon-tic {
+        justify-content: space-around;
+    }
+
+    .line::before {
+        display: none;
+    }
+
+    .card-price {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+
+    }
+
+    .button4 {
+        margin-top: 0;
+        padding: 5px 2px;
+    }
+
+    .data-tic2 {
+        font-size: 12px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .box-tic {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+
+    .mh {
+        display: none;
+    }
+
+    .button9,
+    .reserve .buttonLine,
+    .reserve .button5 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reserve {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .card-tic-body {
+        padding: 1rem 2rem;
+    }
+
+    .text-h-tic {
+        margin-top: 2rem;
+    }
+
+    .icon-tic {
+        justify-content: space-around;
+    }
+
+    .line::before {
+        display: none;
+    }
+
+    .card-price {
+        margin-top: 2rem;
+    }
+
+    .button4 {
+        margin-top: 0;
+        padding: 5px 2px;
+    }
+
+    .data-tic2 {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .line::before {
+        width: 30%;
+        left: 35%;
+    }
+
+    .modal-content {
+        width: 80%;
+        overflow: auto;
+    }
+
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+
+    .card-popup {
+        padding: 1rem;
+    }
+
+    .Flight-two {
+        padding: 0;
+    }
+
+    .form-tic {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {
+    #myModal2 .modal-content {
+        width: 50%;
+    }
+
+    .modal-content {
+        width: 80%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {
+    #myModal2 .modal-content {
+        width: 40%;
+    }
+
+    .modal-content {
+        width: 70%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {
+    .modal-content {
+        width: 75%;
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

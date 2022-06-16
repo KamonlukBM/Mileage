@@ -111,14 +111,14 @@
                     <span>ระบบได้ส่งอีเมล์แจ้งยืนยันการสั่งซื้อไปยังอีเมล์ที่ท่านแจ้งไว้<br>
                         ในกรณีที่ไม่พบอีเมล์ กรุณาตรวจสอบที่กล่องอีเมล์ขยะของท่าน</span>
 
-                    
+
                 </div><button class="button15">กลับหน้าแรก</button>
             </div>
         </section>
 
         <section id="tabs-privat" class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="tabnav">
                         <ul class="tab">
                             <li class="tablinks3 active" onclick="openNav(event, '1')" id="defaultOpen2">
@@ -143,36 +143,34 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="text-d-list border-bottom">
-                                        <div class="col-sm-2">
-                                            <p>แพ็คเกจทัวร์</p>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <p><span>:</span> Private Trip</p>
-                                            <span> ผู้ใหญ่ 1</span><br>
-                                            <span>วันเดินทาง 27 กุมภาพันธ์ 2564</span><br>
-                                            <span>1 วัน -1 คืน</span>
-                                        </div>
-                                        <div class="col-sm-2">
+                                <div class="row text-d-list border-bottom">
+                                    <div class="col-sm-2">
+                                        <p>แพ็คเกจทัวร์</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p><span>:</span> Private Trip</p>
+                                        <span> ผู้ใหญ่ 1</span><br>
+                                        <span>วันเดินทาง 27 กุมภาพันธ์ 2564</span><br>
+                                        <span>1 วัน -1 คืน</span>
+                                    </div>
+                                    <div class="col-sm-2">
 
-                                        </div>
-                                        <div class="col-sm-1">
+                                    </div>
+                                    <div class="col-sm-1">
 
-                                        </div>
-                                        <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-2">
 
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -180,36 +178,36 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p style="color:#1940C7;">0 ฿</p>
                                                 </div>
-                                            </div>
+                                            </div><span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -228,13 +226,13 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
@@ -265,36 +263,36 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p style="color:#1940C7;">0 ฿</p>
                                                 </div>
-                                            </div>
+                                            </div><span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -313,13 +311,13 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
@@ -350,36 +348,36 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p style="color:#1940C7;">0 ฿</p>
                                                 </div>
-                                            </div>
+                                            </div><span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -387,8 +385,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <a href="" class="w3-right">
+                <div class="col-sm-12 text-center text-md-end">
+                    <a href="" class="">
                         <button class="button button6"> อ่านรีวิว / Guide Book</button>
                     </a>
                 </div>

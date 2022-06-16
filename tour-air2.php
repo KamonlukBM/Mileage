@@ -118,12 +118,12 @@
         <section id="flight-tabs" class="container">
             <div class="text-h-flight">
                 <p style="color: #666;">Showing 14 flights from Bangkok to Hongkong (UPT)</p>
-                <div class="d-flex justify-content-between">
+                <div class="d-md-flex justify-content-between">
                     <div class="tab">
-                        <button class="tablinks" onclick="openflight(event, 'Round-trip')" id="defaultOpen">เที่ยวบินไปกลับ</button>
+                        <button class="tablinks" onclick="openflight(event, 'Round-trip')" id="defaultOpen2">เที่ยวบินไปกลับ</button>
                         <button class="tablinks" onclick="openflight(event, 'One-way')">เที่ยวบินขาไป</button>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-3 mt-4 mt-lg-0">
                         <select class="form-select">
                             <option>ประเทศ / เมือง</option>
                         </select>
@@ -137,7 +137,7 @@
                         <div class="card-tic">
                             <div class="card-tic-body">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-4 col-md-4">
                                         <button class="button button3">ไป-กลับ</button>
                                         <div class="cate-tic">
                                             <img src="upload/tb1.png" class="me-2">
@@ -147,7 +147,7 @@
                                             <a id="myBtn">ตรวจสอบไฟล์การบินโปรโมชัน <i class="fas fa-info-circle"></i></a>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-4 col-md-4">
                                         <div class="text-h-tic">
                                             <p>กรุงเทพฯ - สิงคโปร์ (MH)</p>
                                         </div>
@@ -160,7 +160,7 @@
                                             <span>วันเดินทาง 12/02/2021 - 30/02/2021</span><br>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-4 col-md-4">
                                         <div class="card-price">
                                             <p>เริ่มต้นที่ 4,700฿</p>
                                             <button class="button button4" id="myBtn2"><i class="fas fa-plane"></i> จองตั๋วเครื่องบิน</button>
@@ -838,13 +838,15 @@
                             </div>
                         </div>
                         <div class="conf-btn">
-                            <button class="button9">ยืนยันการจอง</button>
+                            <button class="button9">จองผ่านเว็บ</button>
                         </div>
-                        <span>หมายเหตุ</span><br>
-                        <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        <div class="mh">
+                            <span>หมายเหตุ</span><br>
+                            <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        </div>
                         <div class="reserve">
-                            <button class="buttonLine">ยืนยันการจอง</button>
-                            <button class="button5">ยืนยันการจอง</button>
+                            <button class="buttonLine">จองผ่าน LINE</button>
+                            <button class="button5">โทรจอง</button>
                         </div>
                     </div>
                 </div>
@@ -924,13 +926,15 @@
                             </div>
                         </div>
                         <div class="conf-btn">
-                            <button class="button9">ยืนยันการจอง</button>
+                            <button class="button9">จองผ่านเว็บ</button>
                         </div>
-                        <span>หมายเหตุ</span><br>
-                        <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        <div class="mh">
+                            <span>หมายเหตุ</span><br>
+                            <small>Special Quotation group กรณีมากกว่า 1 คนให้จองผ่านทางไลน์</small>
+                        </div>
                         <div class="reserve">
-                            <button class="buttonLine">ยืนยันการจอง</button>
-                            <button class="button5">ยืนยันการจอง</button>
+                            <button class="buttonLine">จองผ่าน LINE</button>
+                            <button class="button5">โทรจอง</button>
                         </div>
                     </div>
                 </div>
@@ -1058,7 +1062,7 @@
         }
 
         // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
+        document.getElementById("defaultOpen2").click();
     </script>
 
     <!-- JS chat -->
@@ -1080,26 +1084,6 @@
 
         chatForm.addEventListener('submit', onChatSubmit);
     </script>
-
-
-
-    <!-- JS tabs -->
-    <script>
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
-
 
 
 
