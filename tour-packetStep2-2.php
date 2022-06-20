@@ -158,460 +158,483 @@
                     <p>Hotel in Disney</p>
                     <span>โรงแรมใน Disney</span>
                 </div>
-                <div>
+                <div class="sort">
                     <button class="button5">ย่าน</button>
                     <button class="button5">เรทติ้ง</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
+                <div class="sort2">
+                    <div class="w3-dropdown-hover w3-white">
+                        <button class="button5"><i class="fas fa-filter"></i> ตัวกรอง</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-border">
+                            <a href="#" class="w3-bar-item w3-button">ย่าน</a>
+                            <a href="#" class="w3-bar-item w3-button">เรทติ้ง</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
             <br>
-            <br>
-            <br>
-            <br>
-            <div class="d-flex justify-content-between">
+
+            <div class="d-flex justify-content-between mt-3 mt-lg-5">
                 <div class="text-h-room">
                     <p>Hotels in the city</p>
                     <span>โรงแรมในเมือง</span>
                 </div>
-                <div>
+                <div class="sort">
                     <button class="button5">ย่าน</button>
                     <button class="button5">เรทติ้ง</button>
                 </div>
+                <div class="sort2">
+                    <div class="w3-dropdown-hover w3-white">
+                        <button class="button5"><i class="fas fa-filter"></i> ตัวกรอง</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-border">
+                            <a href="#" class="w3-bar-item w3-button">ย่าน</a>
+                            <a href="#" class="w3-bar-item w3-button">เรทติ้ง</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
                             </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
                             </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
+                            <div class="card-body">
+                                <a href="#">
+                                    <button class="button button17"> ย่านเยาวมาเต๋ </button>
+                                </a>
+                                <p class="card-title"> Caritas Bianchi Lodge Hotel
+                                </p>
+                                <div class="b-but-ton">
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
+                                    <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
+                                </div>
+                                <div class="card-time">
+                                    <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
+                                </div>
+                                <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
+                                <div>
+                                    <button class="button7">เลือก</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
-                        <div class="card-body">
-                            <a href="#">
-                                <button class="button button17"> ย่านเยาวมาเต๋ </button>
-                            </a>
-                            <p class="card-title"> Caritas Bianchi Lodge Hotel
-                            </p>
-                            <div class="b-but-ton">
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-clipboard-list"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-plane"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hotel"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-bus"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-utensils"></i></button>
-                                <button type="button" class="btn btn-circle btn-lg"><i class="fas fa-hospital-alt"></i></button>
-                            </div>
-                            <div class="card-time">
-                                <span><i class="fas fa-calendar"></i> Today – 31 Mar 63 | 3 วัน 2 คืน</span>
-                            </div>
-                            <p class="card-text">พิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่ายพิเศษ ฟรีนั่งกระเช้าไหว้พระใหญ่วัดโป่หลิน หรือ นั่งรถเปิดประทุนชมเมือง Open top bus ช่วงบ่าย...</p>
-                            <div>
-                                <button class="button7">เลือก</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
             <br>
             <br>
@@ -856,13 +879,11 @@
     <!-- JS slide card -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 10,
-            centeredSlides: true,
-            loop: true,
-            centeredSlides: true,
+            slidesPerView: 4,
+            slidesPerColumn: 2,
+            spaceBetween: 20,
+            centeredSlides: false,
             slideToClickedSlide: true,
-            spaceBetween: 0,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: false,
@@ -872,18 +893,42 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 3,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '1159': {
+                    slidesPerView: 3,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 
     <script>
         var swiper = new Swiper(".mySwiper2", {
-            slidesPerView: 3,
-            spaceBetween: 10,
-            centeredSlides: true,
-            loop: true,
-            centeredSlides: true,
+            slidesPerView: 4,
+            slidesPerColumn: 2,
+            spaceBetween: 20,
+            centeredSlides: false,
             slideToClickedSlide: true,
-            spaceBetween: 0,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: false,
@@ -893,6 +938,32 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '768': {
+                    slidesPerView: 3,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                },
+                '1159': {
+                    slidesPerView: 3,
+                    slidesPerColumn: 1,
+                    loop: true,
+                    spaceBetween: 20,
+                }
+            }
         });
     </script>
 

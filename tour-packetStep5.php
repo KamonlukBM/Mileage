@@ -127,16 +127,16 @@
                         <th class="col-sm-5">
                             <p>แพ็กเกจ</p>
                         </th>
-                        <th class="col-sm-2">
+                        <th class="col-sm-2" id="room">
                             <p>ห้องพัก</p>
                         </th>
-                        <th class="text-center col-sm-2">
+                        <th class="text-lg-center col-sm-2" id="traveler">
                             <p>ผู้เดินทาง</p>
                         </th>
-                        <th class="text-center col-sm-2">
+                        <th class="text-lg-center col-sm-2" id="total">
                             <p>ยอดรวม</p>
                         </th>
-                        <th class="col-sm-1">
+                        <th class="col-sm-1" id="delete">
 
                         </th>
                     </div>
@@ -155,13 +155,13 @@
                             <span>1X Triple Bedded Room</span>
                             <span>1X Triple Bedded Room</span>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2">
                             <p>ผู้ใหญ่ 1</p>
                         </td>
-                        <td class="text-center col-sm-2">
-                            <p>12,900 ฿</p>
+                        <td class="text-lg-center col-sm-2">
+                            <p>12,900 ฿<a style="color: red;" href="" class="w3-right delete2">ลบสินค้า</a></p>
                         </td>
-                        <td class="col-sm-1">
+                        <td class="col-sm-1" id="delete">
                             <a style="color: red;" href="">ลบสินค้า</a>
                         </td>
                     </div>
@@ -171,13 +171,13 @@
                         <th colspan="2" class="col-sm-7">
                             <p>แพ็กเกจเสริม</p>
                         </th>
-                        <th class="text-center col-sm-2">
+                        <th class="text-lg-center col-sm-2" id="num">
                             <p>จำนวน</p>
                         </th>
-                        <th class="text-center col-sm-2">
+                        <th class="text-lg-center col-sm-2" id="total">
                             <p>ยอดรวม</p>
                         </th>
-                        <th class="col-sm-1">
+                        <th class="col-sm-1" id="delete">
 
                         </th>
                     </div>
@@ -187,13 +187,13 @@
                         <td colspan="2" class="col-sm-7">
                             <p>ทัวร์เสริมเสินเจิ้น</p>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2">
                             <p>ผู้ใหญ่ 1</p>
                         </td>
-                        <td class="text-center col-sm-2">
-                            <p>12,900 ฿</p>
+                        <td class="text-lg-center col-sm-2">
+                            <p>12,900 ฿<a style="color: red;" href="" class="w3-right delete2">ลบสินค้า</a></p>
                         </td>
-                        <td class="col-sm-1">
+                        <td class="col-sm-1" id="delete">
                             <a style="color: red;" href="">ลบสินค้า</a>
                         </td>
                     </div>
@@ -204,13 +204,13 @@
                             <p>ประกันการเดินทาง : ปันสุข แผนรายเดี่ยว</p>
                             <span>ผู้ซื้อประกัน: MR. ABCDEFG HIJKLMNHIJKLMN</span>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2">
                             <p>1</p>
                         </td>
-                        <td class="text-center col-sm-2">
-                            <p>12,900 ฿</p>
+                        <td class="text-lg-center col-sm-2">
+                            <p>12,900 ฿<a style="color: red;" href="" class="w3-right delete2">ลบสินค้า</a></p>
                         </td>
-                        <td class="col-sm-1">
+                        <td class="col-sm-1" id="delete">
                             <a style="color: red;" href="">ลบสินค้า</a>
                         </td>
                     </div>
@@ -220,13 +220,13 @@
                         <td colspan="2" class="col-sm-7">
                             <p>Seat in Coach Airport Transfer</p>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2">
                             <p>1</p>
                         </td>
-                        <td class="text-center col-sm-2">
-                            <p>12,900 ฿</p>
+                        <td class="text-lg-center col-sm-2">
+                            <p>12,900 ฿<a style="color: red;" href="" class="w3-right delete2">ลบสินค้า</a></p>
                         </td>
-                        <td class="col-sm-1">
+                        <td class="col-sm-1" id="delete">
                             <a style="color: red;" href="">ลบสินค้า</a>
                         </td>
                     </div>
@@ -236,26 +236,24 @@
                         <td colspan="2" class="col-sm-7">
                             <p>เดินทาง 20 ก.พ. 2021 - 21 ก.พ. 2021</p>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2" id="delete">
                             <p></p>
                         </td>
-                        <td class="text-center col-sm-2">
+                        <td class="text-lg-center col-sm-2" id="delete">
                             <p></p>
                         </td>
-                        <td class="col-sm-1">
+                        <td class="col-sm-1" id="delete">
                             <p style="color: red;"></p>
                         </td>
                     </div>
                 </tr>
                 <tr style="background-color: #DFDFDF;" id="add-pack">
-                    <th colspan="2">
-                    </th>
-                    <th colspan="3" class="text-right">
+                    <td colspan="5" class="text-right">
                         <p>ราคาประเมินทั้งหมด 19,990 ฿</p>
-                        <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                            เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                        <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน<br>
+                            เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า<br>
                             กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
-                    </th>
+                    </td>
                 </tr>
             </table>
             <br>
@@ -475,7 +473,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                     <div class="card">
                         <img src="upload/rc1.png" style="width: 100%;">
                         <div class="card-body">
@@ -484,7 +482,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3">
                     <div class="card">
                         <img src="upload/rc2.png" style="width: 100%;">
                         <div class="card-body">
@@ -653,11 +651,11 @@
                         <p>ทัวร์เสริมเสินเจิ้น</p>
                     </div>
                     <div class="row">
-                        <div class="col-sm-5">
-                            <img src="upload/ts5.png">
+                        <div class="col-sm-6 col-md-5">
+                            <img src="upload/ts5.png" class="w-100">
 
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-6 col-md-7">
                             <div class="text-h-serm">
                                 <p>ทัวร์เสริมเสินเจิ้น</p>
                                 <div class="card-time">
@@ -672,10 +670,10 @@
                     <br>
                     <p>เลือกวันและเวลาที่จะใช้งานทัวร์เสริม</p>
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-6 col-md-3">
                             <input type="date" class="form-control">
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-6 col-md-2">
                             <input type="time" class="form-control">
                         </div>
                     </div>
@@ -685,19 +683,19 @@
                     </select>
                     <p>เพิ่มผู้ใช้งานทัวร์เสริมเพิ่มเติม</p>
                     <div class="row">
-                        <div class="col-sm-2">
+                        <div class="col-sm-6 col-md-2">
                             <div class="form-tic">
                                 <label>คำนำหน้า</label>
                                 <input type="text" class="form-control">
                             </div>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-6 col-md-5">
                             <div class="form-tic">
                                 <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                 <input type="text" class="form-control">
                             </div>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-6 col-md-5">
                             <div class="form-tic">
                                 <label>นามสกุล <span>(ภาษาอังกฤษ)</span></label>
                                 <input type="text" class="form-control">
@@ -705,10 +703,13 @@
                         </div>
                     </div>
                     <button class="button10">+ เพิ่มรายชื่อผู้ใช้งาน</button>
+
+                    <div class="conf">
+                        <button class="button7">ยืนยันการจอง</button>
+                    </div>
                 </div>
-                <div class="conf">
-                    <button class="button7">ยืนยันการจอง</button>
-                </div>
+
+
             </div>
 
         </div>
@@ -720,43 +721,43 @@
                 <div class="Flight-two">
                     <div class="form-tic">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <label>วันเดินทาง ตรงตามตั๋วเครื่องบิน <span>(เที่ยวบินขาไปและกลับ)</span></label>
                                 <div class="row">
-                                    <div class="col-sm-5">
+                                    <div class="col-sm-6 col-md-5">
                                         <input type="date" class="form-control">
                                     </div>
-                                    <div class="col-sm-1">
+                                    <div class="col-sm-6 col-md-1">
                                         <p><i class="fas fa-exchange-alt"></i></p>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-sm-6 col-md-5">
                                         <input type="date" class="form-control">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <label>วันเดินทาง ตรงตามตั๋วเครื่องบิน <span>(เที่ยวบินขาไปและกลับ)</span></label>
+                            <div class="col-sm-6 col-md-6">
+                                <label>จำนวนผู้เดินทาง</label>
                                 <input type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <br>
-                        <p>สรุประยะเวลาคุ้มครอง วันที่ + เวลา: DD/MM/YYYY HH:MM - DD/MM/YYYY HH:MM </p>
+                        <p class="datewarranty">สรุประยะเวลาคุ้มครอง วันที่ + เวลา: DD/MM/YYYY HH:MM - DD/MM/YYYY HH:MM </p>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6 col-md-12">
                                 <label>จุดหมายปลายทาง</label>
                                 <input type="text" class="form-control" placeholder="">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <label>สายการบิน</label>
                                 <input type="text" class="form-control" placeholder="เอมิเรตส์แอร์ไลน์ (EK)">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="row">
                                     <label>ไฟล์การเดินทาง <span>(เที่ยวบินขาไปและกลับ)</span></label>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <input type="text" class="form-control" placeholder="CX617">
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <input type="text" class="form-control" placeholder="CX617">
                                     </div>
                                 </div>
@@ -765,7 +766,7 @@
                         <hr>
                         <p>ผู้ซื้อประกัน</p>
                         <div class="row">
-                            <div class="col-sm-2">
+                            <div class="col-sm-6 col-md-2">
                                 <div class="form-tic">
                                     <label>คำนำหน้า <span style="font-size:10px">(ภาษาอังกฤษ)</span></label>
                                     <select class="form-select">
@@ -773,31 +774,43 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>นามสกุล <span>(ภาษาอังกฤษ)</span></label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="form-tic">
                                     <label>เลขบัตรประชาชน</label>
                                     <input type="text" class="form-control" placeholder="เลขบัตรประชาชน">
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="form-tic">
                                     <label>เลขหนังสือเดินทาง</label>
                                     <input type="text" class="form-control" placeholder="เลขหนังสือเดินทาง">
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-tic">
+                                    <label>วันเดือนปีเกิด</label>
+                                    <input type="date" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-tic">
+                                    <label>อีเมล</label>
+                                    <input type="text" class="form-control" placeholder="อีเมล">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
                                 <div class="form-tic">
                                     <label>เบอร์โทรศัพท์</label>
                                     <input type="text" class="form-control" placeholder="เบอร์โทรศัพท์">
@@ -805,9 +818,10 @@
                             </div>
                         </div>
                         <hr>
-                        <p>ผู้รับผลประโยชน์</p>
+                        <p>ผู้รับผลประโยชน์ <a href="" class="w3-right"> + รายชื่อผู้รับผลประโยชน์</a></p>
+                        
                         <div class="row">
-                            <div class="col-sm-2">
+                            <div class="col-sm-6 col-md-2">
                                 <div class="form-tic">
                                     <label>คำนำหน้า <span style="font-size:10px">(ภาษาอังกฤษ)</span></label>
                                     <select class="form-select">
@@ -815,13 +829,13 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                     <input type="text" class="form-control" placeholder="ชื่อ">
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>นามสกุล <span>(ภาษาอังกฤษ)</span></label>
                                     <input type="text" class="form-control" placeholder="นามสกุล">
@@ -829,7 +843,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-2">
+                            <div class="col-sm-6 col-md-2">
                                 <div class="form-tic">
                                     <label>คำนำหน้า <span style="font-size:10px">(ภาษาไทย)</span></label>
                                     <select class="form-select">
@@ -837,19 +851,19 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>ชื่อ <span>(ภาษาไทย)</span></label>
                                     <input type="text" class="form-control" placeholder="ชื่อ">
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6 col-md-5">
                                 <div class="form-tic">
                                     <label>นามสกุล <span>(ภาษาไทย)</span></label>
                                     <input type="text" class="form-control" placeholder="นามสกุล">
                                 </div>
                             </div>
-                            <div class="col-sm-12">
+                            <div class="col-sm-6 col-md-12">
                                 <div class="form-tic">
                                     <label>ความสัมพันธ์ <span>(ภาษาอังกฤษ )</span></label>
                                     <input type="text" class="form-control" placeholder="ความสัมพันธ์">
@@ -858,7 +872,7 @@
                         </div>
                         <label><span>ชื่อผู้ทำประกันและผู้รับผลประโยคต้องสะกดตรงตาม passport เป็นภาษาอังกฤษเท่านั้น</span></label>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6 col-md-12">
                                 <input type="checkbox" id="" name="" value="">
                                 <label>ข้าพเจ้าความยินยอม ฯลฯ <span style="color:#FF6701 ;">(ยังไม่มี copy)</span></label><br>
                             </div>
@@ -881,14 +895,14 @@
                     </div>
                     <br>
                     <div class="tab">
-                        <button class="tablinks" onclick="openTrip(event, 'air')" id="defaultOpen">airport tranfer</button>
+                        <button class="tablinks" onclick="openTrip(event, 'air')" id="defaultOpen1">airport tranfer</button>
                         <span style="color: #eee;">|</span>
                         <button class="tablinks" onclick="openTrip(event, 'car')">car rental with driver</button>
                     </div>
                     <br>
                     <div id="air" class="tabcontent">
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6 col-md-12">
                                 <div class="form-tic">
                                     <p>ประเทศ</p>
                                     <select class="form-select">
@@ -908,11 +922,11 @@
                             <div id="one" class="tabcontent2">
                                 <div class="form-tic">
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่รับต้นทางขาไป (สนามบิน หรือ โรงแรม) </label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่รับต้นทางขาไป">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่ส่งปลายทาง (สนามบิน หรือ โรงแรม) </label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่ส่งปลายทาง ">
                                         </div>
@@ -923,27 +937,27 @@
                                     </div>
                                     <br>
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนผู้เดินทาง</label>
                                             <input type="text" class="form-control" placeholder="ผู้เข้าพัก 1 คน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>เลือกเส้นทางเดินรถ</label>
                                             <input type="text" class="form-control" placeholder="สนามบิน-โรงแรม">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>ไฟล์เที่ยวบินขาไป</label>
                                             <input type="text" class="form-control" placeholder="เที่ยวบินขาไป">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>ไฟลเที่ยวบินขากลับ</label>
                                             <input type="text" class="form-control" placeholder="เที่ยวบินขากลับ">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์ใหญ่)</label>
                                             <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์ใหญ่)">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์เล็ก)</label>
                                             <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์เล็ก)">
                                         </div>
@@ -955,38 +969,38 @@
                             <div id="round" class="tabcontent2">
                                 <div class="form-tic">
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่รับต้นทางขาไป (สนามบิน) </label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่รับต้นทางขาไป">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่ส่งปลายทาง (โรงแรม)</label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่ส่งปลายทาง ">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่รับต้นทางขากลับ (โรงแรม)</label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่รับต้นทางขาไป">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่ส่งปลายทาง (สนามบิน)</label>
                                             <input type="text" class="form-control" placeholder="ระบุสถานที่ส่งปลายทาง ">
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>จำนวนผู้เดินทาง</label>
                                             <input type="text" class="form-control" placeholder="ผู้เข้าพัก 1 คน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>วัน</label>
                                             <input type="text" class="form-control" placeholder="วันรับ">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>เวลารับ</label>
                                             <input type="text" class="form-control" placeholder="เวลารับ">
                                         </div>
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>เลือกประเภทรถยนต์</label>
                                             <input type="text" class="form-control" placeholder="เลือกประเภทรถยนต์">
                                         </div>
@@ -1004,7 +1018,7 @@
 
                     <div id="car" class="tabcontent">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="form-tic">
                                     <p>ประเทศ</p>
                                     <select class="form-select">
@@ -1012,7 +1026,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="form-tic">
                                     <p>เมือง</p>
                                     <select class="form-select">
@@ -1033,22 +1047,22 @@
                                 <div class="form-tic">
                                     <p>ประเภทการเดินทาง</p>
                                     <div class="row">
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-6 col-md-3">
                                             <input type="radio" id="cate1" name="category" value="" checked>
                                             <label for="">Point to point</label><br>
                                         </div>
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-6 col-md-3">
                                             <input type="radio" id="cate2" name="category" value="">
                                             <label for="">Per Hour</label><br>
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่รับต้นทาง (Point A)</label>
                                             <input type="text" class="form-control" placeholder="สถานที่รับต้นทาง (Point A)">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>สถานที่ส่งปลายทาง (Point B) </label>
                                             <input type="text" class="form-control" placeholder="สถานที่ส่งปลายทาง  (Point) ">
                                         </div>
@@ -1059,27 +1073,27 @@
                                     </div>
                                     <br>
                                     <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>จำนวนผู้เดินทาง</label>
                                             <input type="text" class="form-control" placeholder="7 คน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>วัน</label>
                                             <input type="text" class="form-control" placeholder="เวลารับ">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>เวลารับ</label>
                                             <input type="text" class="form-control" placeholder="เวลารับ">
                                         </div>
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>เลือกประเภทรถยนต์</label>
                                             <input type="text" class="form-control" placeholder="เลือกประเภทรถยนต์">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์ใหญ่) > 20”</label>
                                             <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์ใหญ่)">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์เล็ก) <= 20”</label>
                                                     <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์เล็ก)">
                                         </div>
@@ -1095,11 +1109,11 @@
                                 <div class="form-tic">
                                     <p>ประเภทการเดินทาง</p>
                                     <div class="row">
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-6 col-md-3">
                                             <input type="radio" id="cate1" name="category2" value="" checked>
                                             <label for="">Point to point</label><br>
                                         </div>
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-6 col-md-3">
                                             <input type="radio" id="cate2" name="category2" value="">
                                             <label for="">Per Hour</label><br>
                                         </div>
@@ -1107,23 +1121,23 @@
                                     <br>
                                     <p>จุดรับขึ้นรถ</p>
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-6 col-md-2">
                                             <input type="radio" id="car1" name="pointcar" value="">
                                             <label for="">สนามบิน</label><br>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-6 col-md-4">
                                             <input type="text" class="form-control" placeholder="ระบุชื่อสนามบิน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <input type="text" class="form-control" placeholder="ไฟล์การเดินทางเข้า">
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-6 col-md-2">
                                             <input type="radio" id="car1" name="pointcar" value="">
                                             <label for="">อื่นๆ</label><br>
                                         </div>
-                                        <div class="col-sm-10">
+                                        <div class="col-sm-6 col-md-10">
                                             <input type="text" class="form-control" placeholder="สถานที่รับต้นทาง">
                                         </div>
                                     </div>
@@ -1133,49 +1147,49 @@
                                     <br>
                                     <p>ปลายทาง</p>
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-6 col-md-2">
                                             <input type="radio" id="car1" name="pointcar2" value="">
                                             <label for="">สนามบิน</label><br>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-6 col-md-4">
                                             <input type="text" class="form-control" placeholder="ระบุชื่อสนามบิน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <input type="text" class="form-control" placeholder="ไฟล์การเดินทางเข้า">
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-6 col-md-2">
                                             <input type="radio" id="car1" name="pointcar2" value="">
                                             <label for="">อื่นๆ</label><br>
                                         </div>
-                                        <div class="col-sm-10">
+                                        <div class="col-sm-6 col-md-10">
                                             <input type="text" class="form-control" placeholder="สถานที่รับต้นทาง">
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>จำนวนผู้เดินทาง</label>
                                             <input type="text" class="form-control" placeholder="7 คน">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>วัน</label>
                                             <input type="text" class="form-control" placeholder="เวลารับ">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>เวลารับ</label>
                                             <input type="text" class="form-control" placeholder="เวลารับ">
                                         </div>
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6 col-md-12">
                                             <label>เลือกประเภทรถยนต์</label>
                                             <input type="text" class="form-control" placeholder="เลือกประเภทรถยนต์">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์ใหญ่) > 20”</label>
                                             <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์ใหญ่)">
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-md-6">
                                             <label>จำนวนกระเป๋า (ไซต์เล็ก) <= 20”</label>
                                                     <input type="text" class="form-control" placeholder="จำนวนกระเป๋า (ไซต์เล็ก)">
                                         </div>
@@ -1325,7 +1339,7 @@
         }
 
         // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
+        document.getElementById("defaultOpen1").click();
     </script>
 
     <script>
@@ -1414,9 +1428,8 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4,
             spaceBetween: 10,
-            centeredSlides: true,
+            centeredSlides: false,
             loop: true,
-            centeredSlides: true,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -1428,6 +1441,24 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '768': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                }
+            }
         });
     </script>
 
@@ -1435,9 +1466,8 @@
         var swiper = new Swiper(".mySwiper2", {
             slidesPerView: 3,
             spaceBetween: 10,
-            centeredSlides: true,
+            centeredSlides: false,
             loop: true,
-            centeredSlides: true,
             slideToClickedSlide: true,
             spaceBetween: 0,
             pagination: {
@@ -1449,6 +1479,24 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                '480': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '640': {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                '768': {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                '1024': {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                }
+            }
         });
     </script>
 

@@ -80,6 +80,7 @@ span {
     color: #C4C4C4;
     background-color: #fff;
     line-height: 3;
+    font-size: 14px;
 }
 
 #progressbar li label.a {
@@ -127,6 +128,10 @@ span {
     font-weight: 600;
     font-size: 22px;
 
+}
+
+.sort2 {
+    display: none;
 }
 
 .button5 {
@@ -196,12 +201,12 @@ span {
     margin: 1rem 0;
 }
 
-.button7:hover{
+.button7:hover {
     background-color: #ff8737;
     border: 2px solid #ff8737;
 }
 
-.more{
+.more {
     text-align: center;
 }
 
@@ -223,6 +228,14 @@ span {
     height: 20px;
     right: 380px;
     margin-top: 1.5rem;
+}
+
+.w3-dropdown-content {
+    z-index: 5 !important;
+}
+
+.swiper-pagination {
+    display: none;
 }
 
 /* ------- สิ้นสุด css section reserve-room --------*/
@@ -740,3 +753,311 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .sort2 {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .more span.c:before {
+        width: 95px;
+        left: 0;
+    }
+
+    .more span.d:before {
+        width: 95px;
+        right: 0;
+    }
+
+    .text-h-room p {
+        font-size: 20px;
+    }
+
+    .button5 {
+        padding: 5px 20px;
+    }
+
+    .card {
+        margin-bottom: 3rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #000 !important;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .sort2 {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .more span.c:before {
+        width: 95px;
+        left: 0;
+    }
+
+    .more span.d:before {
+        width: 95px;
+        right: 0;
+    }
+
+    .button5 {
+        padding: 5px 20px;
+    }
+
+    .card {
+        margin-bottom: 3rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #000 !important;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .sort2 {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .more span.c:before {
+        width: 95px;
+        left: 0;
+    }
+
+    .more span.d:before {
+        width: 95px;
+        right: 0;
+    }
+
+    .button5 {
+        padding: 5px 20px;
+    }
+
+    .card {
+        margin-bottom: 3rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #000 !important;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .sort2 {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .more span.c:before {
+        width: 145px;
+        left: 10px;
+    }
+
+    .more span.d:before {
+        width: 145px;
+        right: 10px;
+    }
+
+    .button5 {
+        padding: 5px 20px;
+    }
+
+    .card {
+        margin-bottom: 3rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #000 !important;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #travel-tour-add2 {
+        padding: 185px 50px 55px;
+    }
+
+    .more span.c:before {
+        width: 315px;
+        left: 10px;
+    }
+
+    .more span.d:before {
+        width: 285px;
+        right: 10px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #travel-tour-add2 {
+        padding: 185px 145px 55px;
+
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

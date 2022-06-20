@@ -169,8 +169,8 @@
                     <br>
                     <div class="card">
                         <div class="row">
-                            <div class="col-sm-4" style="padding-right:0;"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
-                            <div class="col-sm-8">
+                            <div class="col-4 col-sm-12 col-md-4"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
+                            <div class="col-8 col-sm-12 col-md-8">
                                 <div class="card-body">
                                     <p class="card-title"> Caritas Bianchi Lodge Hotel
                                     </p>
@@ -194,8 +194,8 @@
                     <br>
                     <div class="card">
                         <div class="row">
-                            <div class="col-sm-4" style="padding-right:0;"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
-                            <div class="col-sm-8">
+                            <div class="col-4 col-sm-12 col-md-4" ><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
+                            <div class="col-8 col-sm-12 col-md-8">
                                 <div class="card-body">
                                     <p class="card-title"> Caritas Bianchi Lodge Hotel
                                     </p>
@@ -219,7 +219,7 @@
                     <br>
                 </div>
                 <div class="col-sm-8">
-                    <table style="width:100%">
+                    <table style="width:100%" id="table-desk">
                         <tr>
                             <th colspan="2">
                                 <p>ประเภทห้องพัก</p>
@@ -317,13 +317,112 @@
                             </th>
                         </tr>
                     </table>
-                    <br>
-                    <br>
+                    <div class="mobile-hotel">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row border-bottom mb-2">
+                                        <div class="col-8">
+                                            <p>ห้องสำหรับ 3 ท่าน </p>
+                                            <p>Triple Bedded Room</p>
+                                            <p><i class="fas fa-bed"></i> <i class="fas fa-bed"></i> <i class="fas fa-bed"></i></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="number" class="form-control" value="1">
+                                        </div>
+                                    </div>
+                                    <a href=""><i class="fas fa-info-circle"></i> เข้าพักได้สูงสุด 5 ท่าน เฉพาะกรณีมีผู้เข้าพักเป็นเด็ก
+                                        ที่ไม่ต้องการใช้เตียง จำนวน 2 ท่าน</a>
+                                    <a href="" style="color: #000; font-size:10px">หมายเหตุ: Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row border-bottom mb-2">
+                                        <div class="col-8">
+                                            <p>ห้องสำหรับ 2 ท่าน </p>
+                                            <p>Twin Bedded Room</p>
+                                            <p><i class="fas fa-bed"></i> <i class="fas fa-bed"></i></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="number" class="form-control" value="1">
+                                        </div>
+                                    </div>
+                                    <a href=""><i class="fas fa-info-circle"></i> เข้าพักได้สูงสุด 5 ท่าน เฉพาะกรณีมีผู้เข้าพักเป็นเด็ก
+                                        ที่ไม่ต้องการใช้เตียง จำนวน 2 ท่าน</a>
+                                    <a href="" style="color: #000; font-size:10px">หมายเหตุ: Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row border-bottom mb-2">
+                                        <div class="col-8">
+                                            <p>ห้องสำหรับ 2 ท่าน </p>
+                                            <p>Double Bedded Room</p>
+                                            <p><i class="fas fa-bed"></i> <i class="fas fa-bed"></i></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="number" class="form-control" value="1">
+                                        </div>
+                                    </div>
+                                    <a href=""><i class="fas fa-info-circle"></i> เข้าพักได้สูงสุด 5 ท่าน เฉพาะกรณีมีผู้เข้าพักเป็นเด็ก
+                                        ที่ไม่ต้องการใช้เตียง จำนวน 2 ท่าน</a>
+                                    <a href="" style="color: #000; font-size:10px">หมายเหตุ: Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row border-bottom mb-2">
+                                        <div class="col-8">
+                                            <p>ห้องสำหรับ 2 ท่าน </p>
+                                            <p>Single Bedded Room</p>
+                                            <p><i class="fas fa-bed"></i></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="number" class="form-control" value="1">
+                                        </div>
+                                    </div>
+                                    <a href=""><i class="fas fa-info-circle"></i> เข้าพักได้สูงสุด 5 ท่าน เฉพาะกรณีมีผู้เข้าพักเป็นเด็ก
+                                        ที่ไม่ต้องการใช้เตียง จำนวน 2 ท่าน</a>
+                                    <a href="" style="color: #000; font-size:10px">หมายเหตุ: Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p>เด็ก (อายุมากกว่า 2 ปี - ไม่เกิน 12 ปี) นอนกับผู้ปกครอง ไม่ต้องการใช้เตียง</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="number" class="form-control" style="width: 50%;" value="1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <div class="card p-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p>เด็กทารก (อายุต่ำกว่า 2 ปี) นอนกับผู้ปกครอง ไม่ต้องการใช้เตียง </p>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="number" class="form-control" style="width: 50%;" value="1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="text-right">
                         <a href="tour-packetStep2.php"><button class="button1">ย้อนกลับ</button></a>
                         <a href="tour-packetStep4.php"><button class="button3">ต่อไป</button></a>
                     </div>
                 </div>
+
             </div>
 
         </section>

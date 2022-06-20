@@ -31,7 +31,7 @@ span {
     font-family: 'Prompt', sans-serif;
 }
 
-.text-recon span{
+.text-recon span {
     color: #fff;
 }
 
@@ -45,6 +45,7 @@ span {
     font-family: 'Prompt', sans-serif;
 
 }
+
 /* ------- สิ้นสุด css section order-detail --------*/
 
 
@@ -52,48 +53,55 @@ span {
 /* ------- เริ่ม css section order-list --------*/
 
 
-.text-h-list{
+.text-h-list {
     padding: 2rem 0;
 }
 
-.text-h-list p{
+.text-h-list p {
     font-size: 16px;
     color: #909090;
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.text-d-list{
+.text-d-list {
     padding: 2rem 0;
 }
 
-.text-d-list p{
+.text-d-list p {
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.text-d-list span{
-    font-weight: unset;
+.text-d-list span {
+    font-weight: 400;
     font-family: 'Prompt', sans-serif;
 }
 
-.text-d-list li{
+.text-d-list li {
     margin-left: 10px;
     font-family: 'Prompt', sans-serif;
 
 }
 
-.or-price{
+.or-price {
     padding: 2rem 0 0;
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
 }
 
-.or-price span{
+.or-price span {
     font-weight: 400;
     font-size: 12px;
     color: #595959;
 }
+
+.rate2,
+.qty2,
+.amt2 {
+    display: none;
+}
+
 /* ------- สิ้นสุด css section order-list --------*/
 
 /* ------- เริ่ม css section tabs-private--------*/
@@ -108,10 +116,11 @@ span {
     align-items: center;
     z-index: 1;
     max-width: 100%;
+    width: 50%;
     list-style: none;
-  }
-  
-  .tabnav ul>li {
+}
+
+.tabnav ul>li {
     position: relative;
     padding: 1em 1.5em;
     flex: 1 1 auto;
@@ -121,37 +130,37 @@ span {
     align-items: center;
     text-align: center;
     background-color: #f7f7f7;
-  }
-  
-  .tabnav ul>li:hover {
+}
+
+.tabnav ul>li:hover {
     color: #fff;
     background-color: #000;
-  }
-  
-  .tabnav ul>li:hover .tab-title-text {
+}
+
+.tabnav ul>li:hover .tab-title-text {
     color: #fff;
-  }
-  
-  .tabnav ul>li.active {
+}
+
+.tabnav ul>li.active {
     background-color: #1940C7;
     color: #fff;
-  }
-  
-  .tabnav ul>li.active .tab-title-text {
+}
+
+.tabnav ul>li.active .tab-title-text {
     color: #fff;
-  }
-  
-  .tabnav>ul>li {
+}
+
+.tabnav>ul>li {
     position: relative;
-  }
-  
-  .tab-title-text {
+}
+
+.tab-title-text {
     font-family: "Kanit", Sans-serif;
     font-size: 16px;
     color: #000000;
-  }
-  
-  .tabnav>ul>li.active:after {
+}
+
+.tabnav>ul>li.active:after {
     display: block;
     border-top-color: #1940C7;
     border-width: 10px;
@@ -168,16 +177,31 @@ span {
     z-index: 2;
     width: 0;
     height: 0;
-  }
+}
 
-  .button6 {
+.button6 {
     color: #fff;
     background-color: #1940C7;
     border-color: #1940C7;
     border-radius: 50px;
     padding: 4px 30px;
     font-family: 'Prompt', sans-serif;
+    position: relative;
+    top: -40px;
 }
+
+.button10 {
+    color: #fff;
+    background-color: #F2692B;
+    border-color: #F2692B;
+    border-radius: 50px;
+    padding: 4px 30px;
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    top: -40px;
+    display: none;
+}
+
 /* ------- สิ้นสุด css section tabs-private --------*/
 
 
@@ -693,3 +717,322 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #order-detail {
+        padding: 2rem 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+
+    .text-recon span {
+        font-size: 12px;
+    }
+
+    .tabnav ul>li {
+        padding: 0.5em 0.5em;
+    }
+
+    .tab-title-text {
+        font-size: 12px;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .tabnav ul {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .button6 {
+        position: static;
+        float: left;
+        padding: 4px 5px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .button10 {
+        display: block;
+        position: static;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+
+    .text-d-list span {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #order-detail {
+        padding: 2rem 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+
+    .text-recon span {
+        font-size: 12px;
+    }
+
+    .tabnav ul>li {
+        padding: 0.5em 0.5em;
+    }
+
+    .tab-title-text {
+        font-size: 12px;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .tabnav ul {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .button6 {
+        position: static;
+        float: left;
+        padding: 4px 5px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .button10 {
+        display: block;
+        position: static;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+    
+    .text-d-list span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #order-detail {
+        padding: 2rem 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+
+    .text-recon span {
+        font-size: 12px;
+    }
+
+    .tabnav ul>li {
+        padding: 0.5em 0.5em;
+    }
+
+    .tab-title-text {
+        font-size: 12px;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .tabnav ul {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .button6 {
+        position: static;
+        float: left;
+        padding: 4px 5px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .button10 {
+        display: block;
+        position: static;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+
+    .text-d-list span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #order-detail {
+        padding: 2rem 1rem;
+    }
+
+    .text-bn {
+        padding: 2rem;
+    }
+
+    .text-or p {
+        font-size: 16px;
+    }
+
+    .text-recon span {
+        font-size: 12px;
+    }
+
+    .tabnav ul>li {
+        padding: 1em 0.5em;
+    }
+
+    .tab-title-text {
+        font-size: 12px;
+    }
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .tabnav ul {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .button6 {
+        position: static;
+        float: left;
+        padding: 4px 5px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .button10 {
+        display: block;
+        position: static;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+    
+    .text-d-list span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .rate,
+    .qty,
+    .amt {
+        display: none;
+    }
+
+    .rate2,
+    .qty2,
+    .amt2 {
+        display: inline-block;
+    }
+
+    .tabnav ul>li {
+        padding: 1em 0.5em;
+    }
+
+    #order-detail {
+        padding: 3rem 2rem;
+    }
+
+    .text-bn {
+        padding: 3rem;
+    }
+
+    .tabnav ul {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .button6 {
+        position: static;
+        float: left;
+        padding: 4px 5px;
+        font-size: 12px;
+        margin-right: 1rem;
+    }
+
+    .button10 {
+        display: block;
+        position: static;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .tabnav ul>li {
+        padding: 1em 0.5em;
+    }
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

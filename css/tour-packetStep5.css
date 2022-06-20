@@ -46,6 +46,14 @@ span {
     text-align: center;
 }
 
+.modal {
+    overflow: auto !important;
+}
+
+#myModal3 .tab {
+    display: flex;
+}
+
 /* ------- สิ้นสุด css section travel-tour-add2--------*/
 
 /* ------- เริ่ม css section sum-pack --------*/
@@ -284,6 +292,10 @@ tr>th span {
     border: 2px solid #ff8737;
 }
 
+.delete2 {
+    display: none;
+}
+
 /* ------- สิ้นสุด css section warranty--------*/
 
 /* ------- เริ่ม css section rentcar --------*/
@@ -325,6 +337,7 @@ tr>th span {
     padding: 1rem 2rem;
     border: none;
     margin-right: 2rem;
+    text-align: center;
 }
 
 #myModal3 .tab2 .tablinks2.active {
@@ -693,9 +706,14 @@ tr>th span {
     border: 2px solid #1940c7;
 }
 
+.conf {
+    text-align: center;
+}
+
 .conf .button7 {
     width: 25%;
     text-align: center;
+    margin-top: 2rem;
 }
 
 /* ------- สิ้นสุด css modal --------*/
@@ -1214,3 +1232,622 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    #room,
+    #traveler,
+    #total,
+    #delete,
+    #num {
+        display: none !important;
+    }
+
+    table td[class*=col-],
+    table th[class*=col-] {
+        display: block !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .delete2 {
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+
+    .text-warranty {
+        padding: 1rem;
+    }
+
+    .warranty-foot {
+        padding: 1rem;
+    }
+
+    .warranty-foot p {
+        font-size: 12px;
+    }
+
+    .text-tt-flight p {
+        font-size: 18px;
+    }
+
+    .text-warranty h5 {
+        font-size: 16px;
+    }
+
+    #rentcar .card {
+        margin-bottom: 2rem;
+    }
+
+    .modal-content {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    .conf .button7 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .datewarranty {
+        display: none;
+    }
+
+    #myModal3 .tab {
+        display: flex;
+    }
+
+    #myModal3 .tab .tablinks {
+        font-size: 12px;
+    }
+
+    .tabcontent {
+        padding: 1rem 0;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+    }
+
+    .tab3{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    #room,
+    #traveler,
+    #total,
+    #delete,
+    #num {
+        display: none !important;
+    }
+
+    table td[class*=col-],
+    table th[class*=col-] {
+        display: block !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .delete2 {
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+
+    .text-warranty {
+        padding: 1rem;
+    }
+
+    .warranty-foot {
+        padding: 1rem;
+    }
+
+    .warranty-foot p {
+        font-size: 12px;
+    }
+
+    .text-tt-flight p {
+        font-size: 18px;
+    }
+
+    .text-warranty h5 {
+        font-size: 16px;
+    }
+
+    #rentcar .card {
+        margin-bottom: 2rem;
+    }
+    
+    .modal-content {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    .conf .button7 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .datewarranty {
+        display: none;
+    }
+
+    #myModal3 .tab {
+        display: flex;
+    }
+
+    #myModal3 .tab .tablinks {
+        font-size: 12px;
+    }
+
+    .tabcontent {
+        padding: 1rem 0;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+    }
+
+    .tab3{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+
+    #room,
+    #traveler,
+    #total,
+    #delete,
+    #num {
+        display: none !important;
+    }
+
+    table td[class*=col-],
+    table th[class*=col-] {
+        display: block !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .delete2 {
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+
+    .text-warranty {
+        padding: 1rem;
+    }
+
+    .warranty-foot {
+        padding: 1rem;
+    }
+
+    .warranty-foot p {
+        font-size: 12px;
+    }
+
+    .text-tt-flight p {
+        font-size: 18px;
+    }
+
+    .text-warranty h5 {
+        font-size: 16px;
+    }
+
+    #rentcar .card {
+        margin-bottom: 2rem;
+    }
+    
+    .modal-content {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    .conf .button7 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .datewarranty {
+        display: none;
+    }
+
+    #myModal3 .tab {
+        display: flex;
+    }
+
+    #myModal3 .tab .tablinks {
+        font-size: 12px;
+    }
+
+    .tabcontent {
+        padding: 1rem 0;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+    }
+
+    .tab3{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+
+    .text-warranty {
+        padding: 1rem;
+    }
+
+    .warranty-foot {
+        padding: 1rem;
+    }
+
+    .warranty-foot p {
+        font-size: 12px;
+    }
+
+    .text-tt-flight p {
+        font-size: 18px;
+    }
+
+    .text-warranty h5 {
+        font-size: 16px;
+    }
+
+    #rentcar .card {
+        margin-bottom: 2rem;
+    }
+
+    td p {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 2rem 0.25rem !important;
+    }
+
+    td>a {
+        font-size: 10px;
+    }
+
+    .button7 {
+        padding: 4px 5px;
+    }
+
+    
+    .modal-content {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    .conf .button7 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .datewarranty {
+        display: none;
+    }
+
+    #myModal3 .tab {
+        display: flex;
+    }
+
+    #myModal3 .tab .tablinks {
+        font-size: 12px;
+    }
+
+    .tabcontent {
+        padding: 1rem 0;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+    }
+
+    .tab3{
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #travel-tour-add2 {
+        padding: 185px 50px 55px;
+    }
+
+    .text-warranty {
+        padding: 1rem;
+    }
+
+    .warranty-foot {
+        padding: 1rem;
+    }
+
+    .warranty-foot p {
+        font-size: 12px;
+    }
+
+    .text-tt-flight p {
+        font-size: 18px;
+    }
+
+    .text-warranty h5 {
+        font-size: 16px;
+    }
+
+    #rentcar .card {
+        margin-bottom: 2rem;
+    }
+
+    th,
+    td {
+        padding: 2rem 0.25rem !important;
+    }
+
+    td>a {
+        font-size: 10px;
+    }
+
+    .button9 {
+        padding: 0.75rem 2rem;
+    }
+
+    .button7 {
+        padding: 4px 5px;
+    }
+
+    
+    .modal-content {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    .conf .button7 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .datewarranty {
+        display: none;
+    }
+
+    #myModal3 .tab {
+        display: flex;
+    }
+
+    #myModal3 .tab .tablinks {
+        font-size: 12px;
+    }
+
+    .tabcontent {
+        padding: 1rem 0;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+    }
+
+    .tab3{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #travel-tour-add2 {
+        padding: 185px 145px 55px;
+    }
+    
+    .modal-content {
+        width: 80%;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .text-h-serm {
+        margin-top: 1rem;
+    }
+
+    #myModal2 .modal-content {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

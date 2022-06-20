@@ -149,13 +149,22 @@
                     <p>Singapore</p>
                     <span>โรงแรมในสิงคโปร์</span>
                 </div>
-                <div>
+                <div class="sort">
                     <button class="button5">ย่าน</button>
                     <button class="button5">เรทติ้ง</button>
                 </div>
+                <div class="sort2">
+                    <div class="w3-dropdown-hover w3-white">
+                        <button class="button5"><i class="fas fa-filter"></i> ตัวกรอง</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-border">
+                            <a href="#" class="w3-bar-item w3-button">ย่าน</a>
+                            <a href="#" class="w3-bar-item w3-button">เรทติ้ง</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -182,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -209,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -236,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -263,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -290,7 +299,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -317,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -344,7 +353,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -371,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -398,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -425,7 +434,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">
@@ -452,7 +461,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card">
                         <img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 10px 0px 0px;">
                         <div class="card-body">

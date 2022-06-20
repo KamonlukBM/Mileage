@@ -172,8 +172,8 @@
                     <br>
                     <div class="card">
                         <div class="row">
-                            <div class="col-sm-4" style="padding-right:0;"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
-                            <div class="col-sm-8">
+                            <div class="col-4 col-sm-12 col-md-4"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
+                            <div class="col-8 col-sm-12 col-md-8">
                                 <div class="card-body">
                                     <p class="card-title"> Caritas Bianchi Lodge Hotel
                                     </p>
@@ -197,8 +197,8 @@
                     <br>
                     <div class="card">
                         <div class="row">
-                            <div class="col-sm-4" style="padding-right:0;"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
-                            <div class="col-sm-8">
+                            <div class="col-4 col-sm-12 col-md-4"><img class="card-img-top" src="upload/ht1.png" alt="Card image cap" style="border-radius: 10px 0 0 0; height:100%;width:100%;"></div>
+                            <div class="col-8 col-sm-12 col-md-8">
                                 <div class="card-body">
                                     <p class="card-title"> Caritas Bianchi Lodge Hotel
                                     </p>
@@ -230,31 +230,33 @@
                             <br>
                             <div class="form-tic">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-12 col-sm-6 col-md-2">
                                         <label>คำนำหน้า</label>
-                                        <input class="form-control" type="text">
+                                        <select class="form-select">
+                                            <option>Mr</option>
+                                        </select>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="ชื่อ (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>นามสกุล<span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="นามสกุล (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>เบอร์โทรศัพท์</label>
                                         <input class="form-control" type="text" placeholder="เบอร์โทรศัพท์">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>Line ID</label>
                                         <input class="form-control" type="text" placeholder="Line ID">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>อีเมล</label>
                                         <input class="form-control" type="text" placeholder="อีเมล">
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-12 col-sm-12 col-md-12">
                                         <input type="checkbox" id="" name="" value="">
                                         <label>ผู้จองเป็นหนึ่งในผู้เดินทาง</label>
                                     </div>
@@ -277,27 +279,29 @@
                             <hr>
                             <div class="form-tic">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-12 col-sm-6 col-md-2">
                                         <label>คำนำหน้า</label>
-                                        <input class="form-control" type="text">
+                                        <select class="form-select">
+                                            <option>Mr</option>
+                                        </select>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="ชื่อ (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>นามสกุล<span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="นามสกุล (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>วันเดือนปีเกิด</label>
                                         <input class="form-control" type="date" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>อายุ</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>สถานะผู้ใช้งาน</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>
@@ -312,27 +316,29 @@
                             <hr>
                             <div class="form-tic">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-12 col-sm-6 col-md-2">
                                         <label>คำนำหน้า</label>
-                                        <input class="form-control" type="text">
+                                        <select class="form-select">
+                                            <option>Mr</option>
+                                        </select>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="ชื่อ (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>นามสกุล<span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="นามสกุล (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>วันเดือนปีเกิด</label>
                                         <input class="form-control" type="date" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>อายุ</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>สถานะผู้ใช้งาน</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>
@@ -347,27 +353,29 @@
                             <hr>
                             <div class="form-tic">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-12 col-sm-6 col-md-2">
                                         <label>คำนำหน้า</label>
-                                        <input class="form-control" type="text">
+                                        <select class="form-select">
+                                            <option>Mr</option>
+                                        </select>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>ชื่อ <span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="ชื่อ (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="col-12 col-sm-6 col-md-5">
                                         <label>นามสกุล<span>(ภาษาอังกฤษ)</span></label>
                                         <input class="form-control" type="text" placeholder="นามสกุล (ภาษาอังกฤษ)">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>วันเดือนปีเกิด</label>
                                         <input class="form-control" type="date" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>อายุ</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-12 col-sm-6 col-md-4">
                                         <label>สถานะผู้ใช้งาน</label>
                                         <input class="form-control" type="text" placeholder="">
                                     </div>

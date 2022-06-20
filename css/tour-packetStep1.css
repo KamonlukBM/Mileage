@@ -80,6 +80,7 @@ span {
     color: #C4C4C4;
     background-color: #fff;
     line-height: 3;
+    font-size: 14px;
 }
 
 #progressbar li label.a {
@@ -143,7 +144,7 @@ span {
     color: #fff;
 }
 
-.flight-detail{
+.flight-detail {
     margin-bottom: 5rem;
 }
 
@@ -163,6 +164,7 @@ span {
 .form-tic label span {
     color: #666;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .form-control {
@@ -726,3 +728,233 @@ body {
 
 /* ------- ปรับขนาดให้พอดีกับโทรศัพท์ --------*/
 @media (max-width: 992px) {}
+
+
+/*-----------------------------------------
+    RESPONSIVE
+-------------------------------------------*/
+@media screen and (min-width:320px) and (max-width:374px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .form-tic {
+        padding: 1rem;
+    }
+
+    .button2 {
+        padding: 5px 22px;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .form-tic {
+        padding: 1rem;
+    }
+
+    .button2 {
+        padding: 5px 22px;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:424px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .form-tic {
+        padding: 1rem;
+    }
+
+    .button2 {
+        padding: 5px 22px;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    #travel-tour-add2 {
+        padding: 120px 10px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 20px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-d p {
+        font-size: 14px;
+    }
+
+    .step-packet {
+        width: 100%;
+    }
+
+    #progressbar li:after {
+        width: 45%;
+        left: 80%;
+    }
+
+    #progressbar li {
+        font-size: 10px;
+    }
+
+    .text-h-flight p {
+        font-size: 26px;
+    }
+
+    .form-tic {
+        padding: 1rem;
+    }
+
+    .button2 {
+        padding: 5px 22px;
+    }
+
+    .form-tic label span {
+        font-size: 12px;
+        display: block;
+    }
+
+    .button1,
+    .button3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #travel-tour-add2 {
+        padding: 115px 75px 55px;
+    }
+
+    #travel-tour-add2 .text-travel-tour-article-h p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #travel-tour-add2 {
+        padding: 185px 145px 55px;
+
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1359px) {}
+
+@media screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media screen and (min-width:1440px) and (max-width:1599px) {}
+
+@media screen and (min-width:1600px) and (max-width:1919px) {}
+
+@media screen and (min-width:1920px) and (max-width:2559px) {}
+
+@media screen and (min-width:2560px) {}

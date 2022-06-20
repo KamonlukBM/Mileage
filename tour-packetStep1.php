@@ -147,9 +147,9 @@
                         <button class="button button2"> มีตั๋วแล้ว </button>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-12 col-sm-4">
                             <label>จำนวนผู้เดินทาง <span>(จำนวนรวมทุกท่าน ผู้ใหญ่ เด็ก และเด็กทารก)</span></label>
-                            <input type="text" class="form-control" style="width: 50%;">
+                            <input type="text" class="form-control">
                         </div>
                     </div>
                     <p>เที่ยวบินขาไป</p>

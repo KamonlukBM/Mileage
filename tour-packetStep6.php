@@ -117,7 +117,8 @@
 
         <section id="tabs-privat" class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
+
                     <div class="tabnav">
                         <ul class="tab">
                             <li class="tablinks3 active" onclick="openNav(event, '1')" id="defaultOpen2">
@@ -130,6 +131,11 @@
                                 <span class="tab-title-text">&nbsp; รายละเอียดผู้เดินทาง</span>
                             </li>
                         </ul>
+
+                        <a href="" class="float-lg-end">
+                            <button class="button button6"> อ่านรีวิว / Guide Book</button>
+                            <button class="button button10"> ดาวโหลดรายละเอียด</button>
+                        </a>
                         <div id="1" class="tabcontent3">
                             <section id="order-list" class="container">
                                 <br>
@@ -142,54 +148,57 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="text-d-list border-bottom">
-                                        <div class="col-sm-2">
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 col-md-2">
                                             <p>แพ็คเกจทัวร์</p>
                                         </div>
-                                        <div class="col-sm-5">
-                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง
-                                                โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</p>
+                                        <div class="col-sm-12 col-md-5">
+                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง<br>
+                                                <span>โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</span></p>
                                         </div>
-                                        <div class="col-sm-2">
-                                            <p>20,000 ฿</p>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
                                         </div>
-                                        <div class="col-sm-1">
-                                            <p>2</p>
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
                                         </div>
-                                        <div class="col-sm-2">
-                                            <p>20,000 ฿</p>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="text-d-list border-bottom">
-                                        <div class="col-sm-2">
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 col-md-2">
                                             <p>โรงแรม </p>
                                         </div>
-                                        <div class="col-sm-5">
+                                        <div class="col-sm-12 col-md-5">
                                             <p><span>:</span> The Peninsula Hotel</p>
                                             <p>Double 1 ( Disney Explorer Lodge Hotel )</p>
                                             <p>ผู้ใหญ่ 1</p>
                                             <p>เข้าพักวัน 27 กุมภาพันธ์ 2564</p>
                                         </div>
-                                        <div class="col-sm-2">
-                                            
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
                                         </div>
-                                        <div class="col-sm-1">
-                                            <p>2</p>
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
                                         </div>
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,36 +207,37 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p> 60,000 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p style="color:#1940C7;">60,000 ฿</p>
                                                 </div>
                                             </div>
+                                            <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -246,35 +256,57 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="text-d-list border-bottom">
-                                        <div class="col-sm-2">
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 col-md-2">
                                             <p>แพ็คเกจทัวร์</p>
                                         </div>
-                                        <div class="col-sm-5">
-                                            <p><span>:</span> Private Trip</p>
-                                            <span> ผู้ใหญ่ 1</span><br>
-                                            <span>วันเดินทาง 27 กุมภาพันธ์ 2564</span><br>
-                                            <span>1 วัน -1 คืน</span>
+                                        <div class="col-sm-12 col-md-5">
+                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง
+                                                โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</p>
                                         </div>
-                                        <div class="col-sm-2">
-
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
                                         </div>
-                                        <div class="col-sm-1">
-
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
                                         </div>
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
 
+                                        <div class="col-sm-12 col-md-2">
+                                            <p>โรงแรม </p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-5">
+                                            <p><span>:</span> The Peninsula Hotel</p>
+                                            <p>Double 1 ( Disney Explorer Lodge Hotel )</p>
+                                            <p>ผู้ใหญ่ 1</p>
+                                            <p>เข้าพักวัน 27 กุมภาพันธ์ 2564</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
                                         </div>
                                     </div>
                                 </div>
@@ -283,36 +315,37 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
-                                                    <p>0 ฿</p>
+                                                <div class="col-6 col-sm-5 text-end">
+                                                    <p> 60,000 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
-                                                    <p style="color:#1940C7;">0 ฿</p>
+                                                <div class="col-6 col-sm-5 text-end">
+                                                    <p style="color:#1940C7;">60,000 ฿</p>
                                                 </div>
                                             </div>
+                                            <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -331,35 +364,57 @@
                                             <p>TASK DESCRIPTION</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>RATE</p>
+                                            <p class="rate">RATE</p>
                                         </div>
                                         <div class="col-sm-1">
-                                            <p>Qty</p>
+                                            <p class="qty">Qty</p>
                                         </div>
                                         <div class="col-sm-2">
-                                            <p>AMOUNT</p>
+                                            <p class="amt">AMOUNT</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="text-d-list border-bottom">
-                                        <div class="col-sm-2">
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 col-md-2">
                                             <p>แพ็คเกจทัวร์</p>
                                         </div>
-                                        <div class="col-sm-5">
-                                            <p><span>:</span> Private Trip</p>
-                                            <span> ผู้ใหญ่ 1</span><br>
-                                            <span>วันเดินทาง 27 กุมภาพันธ์ 2564</span><br>
-                                            <span>1 วัน -1 คืน</span>
+                                        <div class="col-sm-12 col-md-5">
+                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง
+                                                โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</p>
                                         </div>
-                                        <div class="col-sm-2">
-
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
                                         </div>
-                                        <div class="col-sm-1">
-
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
                                         </div>
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-d-list border-bottom">
+                                    <div class="row">
 
+                                        <div class="col-sm-12 col-md-2">
+                                            <p>โรงแรม </p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-5">
+                                            <p><span>:</span> The Peninsula Hotel</p>
+                                            <p>Double 1 ( Disney Explorer Lodge Hotel )</p>
+                                            <p>ผู้ใหญ่ 1</p>
+                                            <p>เข้าพักวัน 27 กุมภาพันธ์ 2564</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="rate2">RATE : </span> 20,000 ฿</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-1">
+                                            <p><span class="qty2">Qty : </span> 2</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2">
+                                            <p><span class="amt2">AMOUNT : </span> 20,000 ฿</p>
                                         </div>
                                     </div>
                                 </div>
@@ -368,36 +423,37 @@
                                     <div class="col-sm-5">
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">SUBTOTAL</p>
                                                 </div>
-                                                <div class="col-sm-5">
-                                                    <p>0 ฿</p>
+                                                <div class="col-6 col-sm-5 text-end">
+                                                    <p> 60,000 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
                                             <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                                <div class="col-6 col-sm-7">
                                                     <p style="color:#909090;">TAX</p>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-6 col-sm-5 text-end">
                                                     <p>0 ฿</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="or-price">
-                                            <div class="row border-bottom">
-                                                <div class="col-sm-7">
+                                            <div class="row">
+                                                <div class="col-6 col-sm-7">
                                                     <p>TOTAL</p>
-                                                    <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
-                                                        เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
-                                                        กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
+
                                                 </div>
-                                                <div class="col-sm-5">
-                                                    <p style="color:#1940C7;">0 ฿</p>
+                                                <div class="col-6 col-sm-5 text-end">
+                                                    <p style="color:#1940C7;">60,000 ฿</p>
                                                 </div>
                                             </div>
+                                            <span>**เนื่องจากราคาตั๋วเครื่องบินและโรงแรมมีการเปลี่ยนแปลงรายเดือน
+                                                เราจึงจำเป็นต้องคำนวณเพื่อเสนอราคาที่ดีที่สุดให้คุณลูกค้า
+                                                กรุณารอการติดต่อกลับจากเราอีกครั้งค่ะ</span>
                                         </div>
                                     </div>
                                 </div>
@@ -405,11 +461,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <a href="" class="w3-right">
-                        <button class="button button6"> อ่านรีวิว / Guide Book</button>
-                    </a>
-                </div>
+
             </div>
         </section>
         <br>
