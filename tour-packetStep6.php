@@ -245,7 +245,7 @@
                         </div>
 
                         <div id="2" class="tabcontent3">
-                            <section id="order-list" class="container">
+                        <section id="order-list" class="container">
                                 <br>
                                 <div class="text-h-list border-bottom">
                                     <div class="row">
@@ -273,8 +273,8 @@
                                             <p>แพ็คเกจทัวร์</p>
                                         </div>
                                         <div class="col-sm-12 col-md-5">
-                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง
-                                                โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</p>
+                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง<br>
+                                                <span>โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</span></p>
                                         </div>
                                         <div class="col-sm-12 col-md-2">
                                             <p><span class="rate2">RATE : </span> 20,000 ฿</p>
@@ -353,7 +353,7 @@
                         </div>
 
                         <div id="3" class="tabcontent3">
-                            <section id="order-list" class="container">
+                        <section id="order-list" class="container">
                                 <br>
                                 <div class="text-h-list border-bottom">
                                     <div class="row">
@@ -381,8 +381,8 @@
                                             <p>แพ็คเกจทัวร์</p>
                                         </div>
                                         <div class="col-sm-12 col-md-5">
-                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง
-                                                โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</p>
+                                            <p><span>:</span> FIX City Tour 3 วัน 2 คืน กินเที่ยวพักครบในเมืองฮ่องกง<br>
+                                                <span>โดยสายการบิน ฮ่องกงแอร์ไลน์ (HK-CITY-TOUR)</span></p>
                                         </div>
                                         <div class="col-sm-12 col-md-2">
                                             <p><span class="rate2">RATE : </span> 20,000 ฿</p>
