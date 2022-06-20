@@ -1012,7 +1012,6 @@
             loop: true,
             centeredSlides: false,
             slideToClickedSlide: true,
-            spaceBetween: 0,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: false,
@@ -1047,7 +1046,6 @@
             loop: true,
             centeredSlides: false,
             slideToClickedSlide: true,
-            spaceBetween: 0,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: false,
