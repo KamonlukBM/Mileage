@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 
-.b-but-ton{
+.b-but-ton {
     text-align: left;
 }
 
@@ -1025,17 +1025,20 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
     }
+
     #box-slide-Recommend .swiper-pagination {
         display: block;
         margin-top: 0;
     }
-    
+
 }
 
 @media screen and (min-width:375px) and (max-width:413px) {
@@ -1047,11 +1050,18 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
+    }
+
+    #box-slide-Recommend .swiper-pagination {
+        display: block;
+        margin-top: 0;
     }
 }
 
@@ -1064,11 +1074,18 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
+    }
+
+    #box-slide-Recommend .swiper-pagination {
+        display: block;
+        margin-top: 0;
     }
 }
 
@@ -1081,11 +1098,18 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
+    }
+
+    #box-slide-Recommend .swiper-pagination {
+        display: block;
+        margin-top: 0;
     }
 }
 
@@ -1098,11 +1122,18 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
+    }
+
+    #box-slide-Recommend .swiper-pagination {
+        display: block;
+        margin-top: 0;
     }
 }
 
@@ -1115,10 +1146,12 @@ body {
         font-size: 18px;
         margin-top: -70px;
     }
-    .but-sec-activites .button16{
+
+    .but-sec-activites .button16 {
         display: none;
     }
-    .but-sec-activites .button17{
+
+    .but-sec-activites .button17 {
         margin-left: 1rem;
     }
 }
