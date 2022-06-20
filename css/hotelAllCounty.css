@@ -1031,6 +1031,11 @@ body {
     .but-sec-activites .button17{
         margin-left: 1rem;
     }
+    #box-slide-Recommend .swiper-pagination {
+        display: block;
+        margin-top: 0;
+    }
+    
 }
 
 @media screen and (min-width:375px) and (max-width:413px) {

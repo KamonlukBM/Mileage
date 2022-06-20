@@ -343,7 +343,6 @@
                                 </div>
                             </div>
                         </div><!-- end swiper wrapper-->
-                        <br>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
